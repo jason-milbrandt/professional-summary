@@ -6,8 +6,6 @@
 **Authors:** J. A. Milbrandt, M. K. Yau  
 **DOI:** Not extracted from PDF; search via Mon. Wea. Rev. vol. 129, pp. 1419–1440
 
-> **Note on stem:** The PDF filename `Milbrandt-Yau-mwr_2000.pdf` reflects the manuscript submission year (2000); the paper was published in 2001. The stem `Milbrandt_Yau_2000` is used here per the project's filename convention as specified at processing time.
-
 ---
 
 ## Overview

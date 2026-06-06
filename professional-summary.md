@@ -66,7 +66,7 @@ A distinctive methodological contribution from **Part III**: the diagnostic para
 
 | Year | Paper (stem) | One-line contribution | Citations¹ |
 |------|--------------|-----------------------|-----------|
-| 2001² | `Milbrandt_Yau_2000` | Mesoscale (MC2) simulation + PV-inversion/factor-separation diagnosis of the 1996 Saguenay flood; quantified roles of upper dynamics, latent heating, and orography. | n/a (not retrieved) |
+| 2001 | `Milbrandt_Yau_2001` | Mesoscale (MC2) simulation + PV-inversion/factor-separation diagnosis of the 1996 Saguenay flood; quantified roles of upper dynamics, latent heating, and orography. | n/a (not retrieved) |
 | 2005a | `Milbrandt_Yau_2005a` | **MY Part I** — analysis of the spectral shape parameter $\alpha$; size-sorting and source-term errors; scheme-skill hierarchy; diagnostic $\alpha = f(D_m)$. | ~665 |
 | 2005b | `Milbrandt_Yau_2005b` | **MY Part II** — three-moment closure (predicted reflectivity) and full six-category scheme description. | ~556 |
 | 2006a | `Milbrandt_Yau_2006a` | **MY Part III** — first 3D cloud-resolving three-moment simulation (Pine Lake hailstorm); $N_h^*$/$R_h^*$ hail-size diagnostics. | ~62 |
@@ -82,7 +82,6 @@ A distinctive methodological contribution from **Part III**: the diagnostic para
 | 2015b | `Morrison_etal_2015b` | **P3 Part II** — 3D WRF evaluation of P3 against observations and 8 other schemes for a midlatitude squall line and IMPROVE-2 orographic case; P3 correctly simulates narrow high-reflectivity convective leading edge (due to hail-like fall speeds) and greater windward/less leeward orographic precipitation (due to predicted riming enhancement); computationally efficient (~11% overhead vs. WSM6 despite 7 prognostic variables). | ~211 |
 
 ¹ Semantic Scholar, retrieved 2026-05-25 (Parts I–II) and 2026-06-06 (Parts III–IV, 2008, 2010–2015); approximate, recheck before citing.
-² Published 2001 (*Mon. Wea. Rev.* **129**, 1419–1440); filename stem uses the 2000 manuscript-submission year per project convention.
 
 **Combined summaries available:** `Milbrandt_Yau_2005ab-summary.md` (Parts I & II), `Milbrandt_Yau_2006ab-summary.md` (Parts III & IV), and `Morrison_etal_2015ab-summary.md` (P3 Parts I & II) treat each natural pair as a unit.
 
@@ -113,11 +112,10 @@ The single early mesoscale paper (Saguenay, 2001) is not central to this microph
 ## Coverage Tracker
 
 **Processed (14 of ~19 distinct papers):**
-✅ `Milbrandt_Yau_2000` · ✅ `Milbrandt_Yau_2005a` · ✅ `Milbrandt_Yau_2005b` · ✅ `Milbrandt_Yau_2006a` · ✅ `Milbrandt_Yau_2006b` · ✅ `Milbrandt_etal_2008` · ✅ `Milbrandt_McTaggart-Cowan_2010` · ✅ `Milbrandt_etal_2010` · ✅ `Morrison_Milbrandt_2011` · ✅ `Milbrandt_etal_2012_PAAG` · ✅ `Milbrandt_etal_2012_snowdensity` · ✅ `Milbrandt_Morrison_2013` · ✅ `Morrison_Milbrandt_2015a` (P3 Part I) · ✅ `Morrison_etal_2015b` (P3 Part II)
+✅ `Milbrandt_Yau_2001` · ✅ `Milbrandt_Yau_2005a` · ✅ `Milbrandt_Yau_2005b` · ✅ `Milbrandt_Yau_2006a` · ✅ `Milbrandt_Yau_2006b` · ✅ `Milbrandt_etal_2008` · ✅ `Milbrandt_McTaggart-Cowan_2010` · ✅ `Milbrandt_etal_2010` · ✅ `Morrison_Milbrandt_2011` · ✅ `Milbrandt_etal_2012_PAAG` · ✅ `Milbrandt_etal_2012_snowdensity` · ✅ `Milbrandt_Morrison_2013` · ✅ `Morrison_Milbrandt_2015a` (P3 Part I) · ✅ `Morrison_etal_2015b` (P3 Part II)
 
 **Notes on duplicate PDFs:**
 - `Milbrandt_etal2012_PAAG.pdf` and `Milbrandt_etal_2012-1Dsnowmelting.pdf` → same paper (DOI: 10.1007/s00024-012-0552-y); both have been processed (PAAG = earlier draft, snowmelting = final print). Two article-md files exist; `Milbrandt_etal_2012_snowmelting-summary.md` is the authoritative summary.
-- `Milbrandt_Morrison-JAS_2013.pdf` and `Milbrandt_Morrison_2013-grpl_density.pdf` → same paper (DOI: 10.1175/JAS-D-12-0204.1); both are the graupel-density paper.
 
 **Not yet processed (5):**
 

@@ -43,14 +43,14 @@ PDF filenames vary (some include journal abbreviations, some don't). Use a **nor
 | 1–2 authors | `LastName_LastName_YYYY` | `Milbrandt_Yau_2005a` |
 | 3+ authors | `LastName_etal_YYYY` | `Milbrandt_etal_2008` |
 
-- Strip journal abbreviations from PDF names (e.g., `Milbrandt_Morrison-JAS_2013.pdf` → stem `Milbrandt_Morrison_2013`)
+- Strip journal abbreviations and topic descriptors from PDF names (e.g., `Milbrandt_Morrison_2013-grpl_density.pdf` → stem `Milbrandt_Morrison_2013`)
 - Preserve part suffixes where meaningful (e.g., `_2005a`, `_2005b`, `_2006a`, `_2006b`)
 - Use first author's last name always
 
 | Source PDF | Markdown | Summary |
 |-----------|----------|---------|
 | `articles-pdf/Milbrandt_Yau_2005a.pdf` | `articles-md/Milbrandt_Yau_2005a.md` | `summaries/Milbrandt_Yau_2005a-summary.md` |
-| `articles-pdf/Milbrandt_Morrison-JAS_2013.pdf` | `articles-md/Milbrandt_Morrison_2013.md` | `summaries/Milbrandt_Morrison_2013-summary.md` |
+| `articles-pdf/Milbrandt_Morrison_2013-grpl_density.pdf` | `articles-md/Milbrandt_Morrison_2013.md` | `summaries/Milbrandt_Morrison_2013-summary.md` |
 | `articles-pdf/Jouan_Milbrandt_JAS_2019.pdf` | `articles-md/Jouan_Milbrandt_2019.md` | `summaries/Jouan_Milbrandt_2019-summary.md` |
 | `articles-pdf/Morrison_etal_2015-P3_part2.pdf` | `articles-md/Morrison_etal_2015b.md` | `summaries/Morrison_etal_2015b-summary.md` |
 | `articles-pdf/Milbrandt_Morrison_2016-P3_part3.pdf` | `articles-md/Milbrandt_Morrison_2016.md` | `summaries/Milbrandt_Morrison_2016-summary.md` |
