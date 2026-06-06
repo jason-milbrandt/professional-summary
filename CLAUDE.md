@@ -191,7 +191,7 @@ The aggregated professional summary has two main sections reflecting the authors
 1. ✅ **Phase 1 complete:** All 20 Tier 1/2 lead-authored papers summarized
 2. ✅ **Phase 2 complete:** All 9 Tier 2 co-authored papers summarized
 3. 🔲 **Phase 3 (next):** Update `professional-summary.md` incorporating Phases 1 & 2
-4. 🔲 **Phase 4 (in progress):** Process the 39 Tier 3 co-authored papers — 19 done (Boudala_2021, Boudala_2022, Boudala_Milbrandt_2023, Cholette_2020, Dawson_2016, Fan_2017, Gong_2015, Gultepe_Milbrandt_2007, Gultepe_Milbrandt_2010, Gultepe_etal_2014_BAMS, Han_2019, Huang_2021, Isaac_2012, Jensen_2017, Joe_2020, Joe_2025, Johnson_2019, Kiktev_2017, Korolev_2020), 20 remaining; next: Korolev_Milbrandt_2022
+4. 🔲 **Phase 4 (in progress):** Process the 39 Tier 3 co-authored papers — 23 done (Boudala_2021, Boudala_2022, Boudala_Milbrandt_2023, Cholette_2020, Dawson_2016, Fan_2017, Gong_2015, Gultepe_Milbrandt_2007, Gultepe_Milbrandt_2010, Gultepe_etal_2014_BAMS, Han_2019, Huang_2021, Isaac_2012, Jensen_2017, Joe_2020, Joe_2025, Johnson_2019, Kiktev_2017, Korolev_2020, Korolev_Milbrandt_2022, Mailhot_2012, Makar_2015a, Makar_2015b), 16 remaining; next: Makar_etal_2021
 5. 🔲 **Phase 5:** Add "Related Contributions" section to `professional-summary.md`
 
 ---

@@ -1,6 +1,6 @@
 # Processing Status
 
-Last updated: 2026-06-06 (Phase 4 batch 4: 4 more Tier 3 papers done — Joe_etal_2025, Johnson_etal_2019, Kiktev_etal_2017 [PDF misnamed Kirkev], Korolev_etal_2020; total T3 complete: 19 of 39)
+Last updated: 2026-06-06 (Phase 4 batch 5: 4 more Tier 3 papers done — Korolev_Milbrandt_2022, Mailhot_etal_2012, Makar_etal_2015a, Makar_etal_2015b; total T3 complete: 23 of 39)
 
 ---
 
@@ -50,7 +50,7 @@ Last updated: 2026-06-06 (Phase 4 batch 4: 4 more Tier 3 papers done — Joe_eta
 
 ---
 
-## Tier 3 (contributing co-author, 39 papers — 15 complete, 24 remaining)
+## Tier 3 (contributing co-author, 39 papers — 23 complete, 16 remaining)
 
 | Normalized stem | Source PDF | articles-md | summary |
 |-----------------|------------|-------------|---------|
@@ -73,10 +73,10 @@ Last updated: 2026-06-06 (Phase 4 batch 4: 4 more Tier 3 papers done — Joe_eta
 | Johnson_etal_2019 | `Johnson_etal_2019-MWR.pdf` | ✅ | ✅ | ~14 citations |
 | Kiktev_etal_2017 | `Kirkev_BAMS_2017.pdf` (PDF misnamed — author is Kiktev) | ✅ | ✅ | ~19 citations |
 | Korolev_etal_2020 | `Korolev-acp-20-1391-2020.pdf` | ✅ | ✅ | ~122 citations |
-| Korolev_Milbrandt_2022 | `Korolev_Milbrandt_2022-GRL.pdf` | ❌ | ❌ |
-| Mailhot_etal_2012 | `Mailhot_etal_2012-SNOW_V10.pdf` | ❌ | ❌ |
-| Makar_etal_2015a | `Makar_etal_part1_2015.pdf` | ❌ | ❌ |
-| Makar_etal_2015b | `Makar_etal_part2_2015.pdf` | ❌ | ❌ |
+| Korolev_Milbrandt_2022 | `Korolev_Milbrandt_2022-GRL.pdf` | ✅ | ✅ | ~50 citations |
+| Mailhot_etal_2012 | `Mailhot_etal_2012-SNOW_V10.pdf` | ✅ | ✅ | ~47 citations |
+| Makar_etal_2015a | `Makar_etal_part1_2015.pdf` | ✅ | ✅ | ~137 citations |
+| Makar_etal_2015b | `Makar_etal_part2_2015.pdf` | ✅ | ✅ | ~128 citations |
 | Makar_etal_2021 | `Makar_etal_2021-acp.pdf` | ❌ | ❌ |
 | McTaggart-Cowan_etal_2019 | `McTaggart-Cowan_et_al-2019-JAMES.pdf` | ❌ | ❌ |
 | Mo_etal_2012 | `Mo_etal_2012-SNOW_V10.pdf` | ❌ | ❌ |
