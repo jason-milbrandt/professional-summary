@@ -1,6 +1,6 @@
 # Processing Status
 
-Last updated: 2026-06-06 (Phase 4 batch 3: 5 more Tier 3 papers done — Han_etal_2019, Huang_etal_2021, Isaac_etal_2012, Jensen_2017, Joe_etal_2020; total T3 complete: 15 of 39)
+Last updated: 2026-06-06 (Phase 4 batch 4: 4 more Tier 3 papers done — Joe_etal_2025, Johnson_etal_2019, Kiktev_etal_2017 [PDF misnamed Kirkev], Korolev_etal_2020; total T3 complete: 19 of 39)
 
 ---
 
@@ -69,10 +69,10 @@ Last updated: 2026-06-06 (Phase 4 batch 3: 5 more Tier 3 papers done — Han_eta
 | Isaac_etal_2012 | `Isaac_etal_2012-SNOW_V10.pdf` | ✅ | ✅ | ~64 citations |
 | Jensen_2017 | `Jensen_2017_JAS.pdf` | ✅ | ✅ | ~88 citations |
 | Joe_etal_2020 | `Joe_etal_2020-BAMS-CAWS.pdf` | ✅ | ✅ | citation count pending (rate-limited) |
-| Joe_etal_2025 | `Joe_etal_2025-BAMS.pdf` | ❌ | ❌ |
-| Johnson_etal_2019 | `Johnson_etal_2019-MWR.pdf` | ❌ | ❌ |
-| Kirkev_2017 | `Kirkev_BAMS_2017.pdf` | ❌ | ❌ |
-| Korolev_etal_2020 | `Korolev-acp-20-1391-2020.pdf` | ❌ | ❌ |
+| Joe_etal_2025 | `Joe_etal_2025-BAMS.pdf` | ✅ | ✅ | 0 citations (recent, July 2025) |
+| Johnson_etal_2019 | `Johnson_etal_2019-MWR.pdf` | ✅ | ✅ | ~14 citations |
+| Kiktev_etal_2017 | `Kirkev_BAMS_2017.pdf` (PDF misnamed — author is Kiktev) | ✅ | ✅ | ~19 citations |
+| Korolev_etal_2020 | `Korolev-acp-20-1391-2020.pdf` | ✅ | ✅ | ~122 citations |
 | Korolev_Milbrandt_2022 | `Korolev_Milbrandt_2022-GRL.pdf` | ❌ | ❌ |
 | Mailhot_etal_2012 | `Mailhot_etal_2012-SNOW_V10.pdf` | ❌ | ❌ |
 | Makar_etal_2015a | `Makar_etal_part1_2015.pdf` | ❌ | ❌ |
