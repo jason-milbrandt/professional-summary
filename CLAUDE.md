@@ -111,9 +111,11 @@ A structured interpretive summary. Use the following section template:
 
 #### Impact and Citations Section
 
-- **Citation count**: Query the **Semantic Scholar API** (free, no key required):  
+- **Citation count**: Query the **Semantic Scholar API** (free, no key required). **Prefer the DOI-based endpoint** — it is faster, unambiguous, and avoids rate-limit errors on the search endpoint:  
+  `https://api.semanticscholar.org/graph/v1/paper/DOI:<doi>?fields=title,citationCount,year`  
+  Fall back to title search only if the DOI is unavailable:  
   `https://api.semanticscholar.org/graph/v1/paper/search?query=<title>&fields=title,citationCount,year,authors`  
-  Use the returned `citationCount` field. Note the retrieval date.
+  Use the returned `citationCount` field. Note the retrieval date. If rate-limited (HTTP 429), wait a few seconds and retry sequentially rather than in parallel.
 - **Impact narrative**: Based on the citation count, any web-searchable context (follow-on papers, model implementations, comparative studies), describe the paper's influence on the field.
 - Format:
   ```markdown
