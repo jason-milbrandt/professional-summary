@@ -50,7 +50,7 @@ Last updated: 2026-06-06 (Phase 4 started: 5 Tier 3 papers done — Boudala_etal
 
 ---
 
-## Not yet started — Tier 3 (contributing co-author, 39 papers)
+## Tier 3 (contributing co-author, 39 papers — 5 complete, 34 remaining)
 
 | Normalized stem | Source PDF | articles-md | summary |
 |-----------------|------------|-------------|---------|
@@ -134,6 +134,6 @@ Last updated: 2026-06-06 (Phase 4 started: 5 Tier 3 papers done — Boudala_etal
 - Semantic Scholar API rate-limits under heavy use — use DOI-based lookups (`/paper/DOI:...`) instead of search for reliability
 - File naming convention: normalize stems (strip journal abbreviations, use underscores)
 - `Milbrandt_etal2012_PAAG.pdf` = `Milbrandt_etal_2012-1Dsnowmelting.pdf` (same paper, DOI 10.1007/s00024-012-0552-y)
-- Tier 2 papers: 9 remaining (key co-author — substantive intellectual contribution)
-- Tier 3 papers: 39 remaining (contributing co-author — peripheral or supporting role)
-- Total scope: 68 papers (20 complete + 9 T2 + 39 T3 pending)
+- Tier 2 papers: 9 complete ✅
+- Tier 3 papers: 34 remaining (5 of 39 done — contributing co-author — peripheral or supporting role)
+- Total scope: 68 papers (34 complete + 34 T3 pending)
