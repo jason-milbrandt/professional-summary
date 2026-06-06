@@ -22,7 +22,9 @@ This project processes scientific journal articles (PDFs) authored or co-authore
 ```
 professional-summary/
 ├── CLAUDE.md                      ← this file
+├── STATUS.md                      ← processing status and paper inventory
 ├── articles-pdf/                  ← source PDFs (do not modify)
+│   ├── 0_PDFs-published/          ← symlink to full published-papers directory
 │   └── Author_etal_YYYY.pdf
 ├── articles-md/                   ← full article in markdown (one per PDF)
 │   └── Author_etal_YYYY.md
@@ -31,6 +33,31 @@ professional-summary/
 ├── professional-summary.md        ← aggregated professional summary (built from summaries/)
 └── _archive_v1/                   ← prior exploratory work (ignore)
 ```
+
+---
+
+## Authorship Tiers
+
+All papers are tagged with a tier reflecting Milbrandt's level of intellectual contribution. The tier appears as an `Author's role` field in each summary's metadata block and governs how the paper is represented in `professional-summary.md`.
+
+| Tier | Label | Description |
+|------|-------|-------------|
+| **Tier 1** | Lead contributor | First author, or co-first where Milbrandt drove the science on equal footing (e.g., P3 Parts I & II). Full intellectual ownership. |
+| **Tier 2** | Key co-author | Not first author, but made a substantive intellectual contribution — co-designed the study, provided domain expertise central to the results, or supervised the lead researcher. |
+| **Tier 3** | Contributing co-author | Real but supporting contribution — provided data, ran a model, reviewed the manuscript, or contributed to analysis without driving the intellectual direction. |
+
+**Tier assignment rules:**
+- First author → Tier 1 (no need to ask)
+- Second author → likely Tier 2, but confirm with Jason if ambiguous
+- Lower-order author → ask Jason; cannot be inferred from position alone
+- Second authorship does not guarantee Tier 2 (e.g., some Gultepe and Korolev papers are Tier 3)
+
+**Effect on `professional-summary.md`:**
+- Tier 1 and Tier 2 papers appear in the main per-article contributions narrative
+- Tier 3 papers appear in a separate "Related Contributions" section
+- Language in summaries should not overstate the focal author's role — use "Milbrandt contributed X" rather than "Milbrandt developed X" for Tier 2/3 unless accurate
+
+**Paper inventory (as of 2026-06-06):** 20 complete (all Tier 1/2) + 9 Tier 2 pending + 39 Tier 3 pending = 68 total in scope. See `STATUS.md` for the full list.
 
 ---
 
@@ -83,6 +110,7 @@ A structured interpretive summary. Use the following section template:
 **Year:** ...
 **Authors:** ...
 **DOI:** ... (if available)
+**Author's role:** Tier [N] — [brief description of Milbrandt's specific contribution]
 
 ---
 
@@ -105,7 +133,10 @@ A structured interpretive summary. Use the following section template:
 [What the paper acknowledged as limitations, or known weaknesses]
 
 ## Relation to Author's Research Program
-[How this paper fits into Milbrandt's broader body of work]
+[How this paper fits into Milbrandt's broader body of work. For Tier 1: describe
+intellectual ownership and the paper's place in the author's arc. For Tier 2: be
+specific about what Milbrandt contributed vs. what the lead drove. For Tier 3: note
+the contribution and explain why the paper is relevant to the author's work.]
 
 ## Impact and Citations
 [See guidelines below]
@@ -139,12 +170,29 @@ The PDF→markdown conversion and article summarization workflows are handled in
 
 ---
 
+## Structure of `professional-summary.md`
+
+The aggregated professional summary has two main sections reflecting the authorship tiers:
+
+1. **Main narrative (Tier 1 & selected Tier 2)** — Milbrandt's primary research contributions, told chronologically. Tier 2 papers where Milbrandt made a substantive intellectual contribution are included here.
+2. **Related Contributions (Tier 2 & 3)** — Papers where Milbrandt was a supporting or contributing co-author. Presented in a separate section to avoid inflating credit. A brief framing paragraph notes that these reflect Milbrandt's role as a domain expert brought in by other research groups, not as the primary intellectual driver.
+
+---
+
 ## Workflow
 
-To process a new article:
-1. Use the built-in `pdf` skill to extract the PDF → clean and save as `articles-md/<stem>.md`
-2. Using the markdown file + the summary template below, produce `summaries/<stem>-summary.md` (includes Semantic Scholar citation lookup)
-3. Optionally update `professional-summary.md` once multiple summaries exist
+### Processing a new article
+1. Confirm the normalized stem (see naming convention above) and the tier (ask Jason if uncertain)
+2. Use the built-in `pdf` skill to extract the PDF → clean and save as `articles-md/<stem>.md`
+3. Using the markdown file + the summary template, produce `summaries/<stem>-summary.md` (includes Semantic Scholar citation lookup and `Author's role` field)
+4. Update `STATUS.md` to mark the paper as complete
+
+### Current processing plan (as of 2026-06-06)
+1. ✅ **Phase 1 complete:** All 20 Tier 1/2 lead-authored papers summarized
+2. 🔲 **Phase 2 next:** Process the 9 Tier 2 co-authored papers
+3. 🔲 **Phase 3:** Update `professional-summary.md` incorporating Phases 1 & 2
+4. 🔲 **Phase 4:** Process the 39 Tier 3 co-authored papers
+5. 🔲 **Phase 5:** Add "Related Contributions" section to `professional-summary.md`
 
 ---
 

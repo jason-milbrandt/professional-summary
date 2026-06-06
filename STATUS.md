@@ -118,6 +118,18 @@ Last updated: 2026-06-06 (Co-authored paper inventory complete; 48 new papers ca
 
 ---
 
+## Processing Plan
+
+| Phase | Task | Status |
+|-------|------|--------|
+| 1 | Summarize all 20 Tier 1/2 lead-authored papers | ✅ Complete |
+| 2 | Summarize 9 Tier 2 co-authored papers | 🔲 Next |
+| 3 | Update `professional-summary.md` (Phases 1 + 2) | 🔲 Pending Phase 2 |
+| 4 | Summarize 39 Tier 3 co-authored papers | 🔲 Later |
+| 5 | Add "Related Contributions" section to `professional-summary.md` | 🔲 Pending Phase 4 |
+
+---
+
 ## Notes
 - Semantic Scholar API rate-limits under heavy use — use DOI-based lookups (`/paper/DOI:...`) instead of search for reliability
 - File naming convention: normalize stems (strip journal abbreviations, use underscores)
