@@ -1,6 +1,6 @@
 # Processing Status
 
-Last updated: 2026-06-06 (Phase 4 batch 5: 4 more Tier 3 papers done — Korolev_Milbrandt_2022, Mailhot_etal_2012, Makar_etal_2015a, Makar_etal_2015b; total T3 complete: 23 of 39)
+Last updated: 2026-06-06 (Phase 4 batch 6: 4 more Tier 3 papers done — Makar_etal_2021, McTaggart-Cowan_etal_2019, Mo_etal_2012, Mo_etal_2019; total T3 complete: 27 of 39)
 
 ---
 
@@ -77,10 +77,10 @@ Last updated: 2026-06-06 (Phase 4 batch 5: 4 more Tier 3 papers done — Korolev
 | Mailhot_etal_2012 | `Mailhot_etal_2012-SNOW_V10.pdf` | ✅ | ✅ | ~47 citations |
 | Makar_etal_2015a | `Makar_etal_part1_2015.pdf` | ✅ | ✅ | ~137 citations |
 | Makar_etal_2015b | `Makar_etal_part2_2015.pdf` | ✅ | ✅ | ~128 citations |
-| Makar_etal_2021 | `Makar_etal_2021-acp.pdf` | ❌ | ❌ |
-| McTaggart-Cowan_etal_2019 | `McTaggart-Cowan_et_al-2019-JAMES.pdf` | ❌ | ❌ |
-| Mo_etal_2012 | `Mo_etal_2012-SNOW_V10.pdf` | ❌ | ❌ |
-| Mo_etal_2019 | `Mo_etal_2019-WAF.pdf` | ❌ | ❌ |
+| Makar_etal_2021 | `Makar_etal_2021-acp.pdf` | ✅ | ✅ | ~26 citations |
+| McTaggart-Cowan_etal_2019 | `McTaggart-Cowan_et_al-2019-JAMES.pdf` | ✅ | ✅ | ~74 citations |
+| Mo_etal_2012 | `Mo_etal_2012-SNOW_V10.pdf` | ✅ | ✅ | ~20 citations |
+| Mo_etal_2019 | `Mo_etal_2019-WAF.pdf` | ✅ | ✅ | ~31 citations |
 | Morrison_etal_2016 | `Morrison_etal_2016-MWR-advection.pdf` | ❌ | ❌ |
 | Morrison_etal_2020 | `Morrison_etal_2020_JAMES.pdf` | ❌ | ❌ |
 | Paukert_etal_2019 | `Paukert_etal_2019-JAMES.pdf` | ❌ | ❌ |
