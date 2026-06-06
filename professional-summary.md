@@ -1,6 +1,6 @@
 # Professional Research Summary: Jason A. Milbrandt
 
-> **Status — living document (first draft, 2026-06-06).** This document aggregates the per-article summaries in `summaries/` into a synthetic overview of the author's research contributions, intended for downstream AI-assisted research and publication work. It is **incomplete**: it currently covers 12 of ~21 catalogued papers (see the [Coverage Tracker](#coverage-tracker) at the end). The papers processed so far span the author's earliest mesoscale work, the complete foundational Milbrandt–Yau multimoment microphysics series, both IMPROVE-2 orographic-precipitation papers (2008, 2010), a theoretical sedimentation-error study (2010), the Morrison–Milbrandt scheme intercomparison (2011), the MY2 snow-category modernization pair (2012), and the prognostic graupel-density paper (2013); later work (P3 scheme, three-moment ice, operational implementations) is not yet incorporated. Sections will be revised as additional summaries are added — narrative claims about the "arc" of the research program should be treated as provisional until coverage is more complete.
+> **Status — living document (updated 2026-06-06).** This document aggregates the per-article summaries in `summaries/` into a synthetic overview of the author's research contributions, intended for downstream AI-assisted research and publication work. It is **incomplete**: it currently covers 14 of ~19 distinct papers catalogued (see the [Coverage Tracker](#coverage-tracker) at the end). The papers processed so far span the author's earliest mesoscale work, the complete foundational Milbrandt–Yau multimoment microphysics series, both IMPROVE-2 orographic-precipitation papers (2008, 2010), a theoretical sedimentation-error study (2010), the Morrison–Milbrandt scheme intercomparison (2011), the MY2 snow-category modernization pair (2012), the prognostic graupel-density paper (2013), and the landmark P3 scheme papers (Parts I & II, 2015). Later work (P3 Part III, WAF 2016 operational paper, 2019, 2021 three-moment ice, and 2025 JAMES) is not yet incorporated. Sections will be revised as additional summaries are added — narrative claims about the "arc" of the research program should be treated as provisional until coverage is more complete.
 
 ---
 
@@ -78,11 +78,13 @@ A distinctive methodological contribution from **Part III**: the diagnostic para
 | 2012a | `Milbrandt_etal_2012_PAAG` | **1D snow melting** — phase transition timing sensitive to V–D, aggregation, $\kappa_{s,min}$; fundamental BMS limitation of not representing partial melting identified; 1D model proposed as forecasters' tool. | ~15 |
 | 2012b | `Milbrandt_etal_2012_snowdensity` | **Snow-to-liquid ratio** — first explicit SLR prediction from a BMS; new MY2 snow-category updates ($d_s \approx 2$, faster V–D, $\lambda_{s,min}$, reduced capacitance); operational deployment for 2010 Vancouver Olympics. | ~26 |
 | 2013 | `Milbrandt_Morrison_2013` | **Prognostic graupel density** — adds $B_g = q_g/\rho_g$ as new prognostic variable; density-dependent fall speeds via Re–$X$ formulation; single rimed-ice category can span lightly rimed snow to hail-like ice; paradigm-shift framing directly anticipating P3. | ~62 |
+| 2015a | `Morrison_Milbrandt_2015a` | **P3 Part I** — introduces the Predicted Particle Properties (P3) scheme: single free ice category with four prognostic variables ($q_i$, $N_i$, $q_{rim}$, $B_{rim}$) allowing $F_r$ and $\rho_r$ to evolve freely; physically consistent $m$–$D$, $A$–$D$, and fall speed for all particle states; eliminates predefined ice categories and all artificial conversion processes; idealized 2D squall-line tests show realistic wide range of particle characteristics. | ~511 |
+| 2015b | `Morrison_etal_2015b` | **P3 Part II** — 3D WRF evaluation of P3 against observations and 8 other schemes for a midlatitude squall line and IMPROVE-2 orographic case; P3 correctly simulates narrow high-reflectivity convective leading edge (due to hail-like fall speeds) and greater windward/less leeward orographic precipitation (due to predicted riming enhancement); computationally efficient (~11% overhead vs. WSM6 despite 7 prognostic variables). | ~211 |
 
-¹ Semantic Scholar, retrieved 2026-05-25 (Parts I–II) and 2026-06-06 (Parts III–IV, 2008, 2010–2013); approximate, recheck before citing.
+¹ Semantic Scholar, retrieved 2026-05-25 (Parts I–II) and 2026-06-06 (Parts III–IV, 2008, 2010–2015); approximate, recheck before citing.
 ² Published 2001 (*Mon. Wea. Rev.* **129**, 1419–1440); filename stem uses the 2000 manuscript-submission year per project convention.
 
-**Combined summaries available:** `Milbrandt_Yau_2005ab-summary.md` (Parts I & II) and `Milbrandt_Yau_2006ab-summary.md` (Parts III & IV) treat each natural pair as a unit.
+**Combined summaries available:** `Milbrandt_Yau_2005ab-summary.md` (Parts I & II), `Milbrandt_Yau_2006ab-summary.md` (Parts III & IV), and `Morrison_etal_2015ab-summary.md` (P3 Parts I & II) treat each natural pair as a unit.
 
 ---
 
@@ -100,30 +102,31 @@ The Morrison–Milbrandt intercomparison (2011) — the most-cited single paper 
 
 The graupel-density paper (2013, with Morrison) is the critical conceptual bridge to P3: the Morrison–Milbrandt 2011 paper *diagnosed* the problem (fixed graupel/hail parameters are the dominant uncertainty), this paper *fixes* it within the MY framework (prognostic density + physics-based fall speeds), and the paper explicitly frames this as "part of a paradigm shift... toward adding physical degrees of freedom for a given hydrometeor type." That paradigm shift is exactly what P3 implements for all ice-phase particles.
 
+The **P3 papers (2015, Parts I & II)** represent the culmination of Milbrandt's decade-long program of refinement to bulk ice microphysics and are his most highly cited contribution. Part I (511 citations) introduces the Predicted Particle Properties scheme, a fundamentally different architecture in which all ice-phase particles are described by four conserved prognostic variables — total mass $q_i$, rime mass $q_{rim}$, rime volume $B_{rim}$, and number $N_i$ — allowing the rime mass fraction $F_r$ and predicted rime density $\rho_r$ to evolve freely in time and space. The scheme completely eliminates predefined ice categories (cloud ice, snow, graupel, hail) and all associated artificial conversion processes. The physical formulation draws directly on the Re–X fall speed approach and the rime volume budget from the 2013 graupel-density paper; the $B_{rim}$ variable is the natural generalization of $B_g$. A key conceptual result from the idealized tests is that $F_r$ and $\rho_r$ exhibit no simple relationships with local temperature, liquid water content, or updraft velocity, confirming that transport of ice away from its growth conditions makes diagnostic approaches fundamentally unreliable.
+
+Part II (211 citations) demonstrates P3's practical performance in 3D WRF simulations of two contrasting well-observed cases. For a midlatitude squall line, P3 correctly reproduces the narrow, intense convective leading edge seen in KOUN radar data — a feature that schemes representing rimed ice as slower-falling graupel fail to capture — because P3 predicts hail-like ($\rho_g > 700$ kg m$^{-3}$) fall speeds in the convective core. For the IMPROVE-2 Pacific Northwest orographic case, P3 produces more windward and less leeward precipitation than nearly all other schemes, directly traceable to its prediction of enhanced fall speeds for lightly rimed snow on the windward slope — a result consistent with observations and with the physical argument from IMPROVE-2 Parts I & II (2008, 2010). Notably, P3 is computationally faster than MY2 (~25–35% speedup) and only ~11% slower than the simplest scheme tested (WSM6), reflecting the efficiency of the lookup table approach. These results collectively establish P3 as both conceptually superior and practically viable at cloud-resolving NWP scales.
+
 The single early mesoscale paper (Saguenay, 2001) is not central to this microphysics legacy but is valuable context: it establishes the tools, collaborator, and applied motivation from which the microphysics program grew.
 
 ---
 
 ## Coverage Tracker
 
-**Processed (11 of ~21):** ✅ `Milbrandt_Yau_2000` · ✅ `Milbrandt_Yau_2005a` · ✅ `Milbrandt_Yau_2005b` · ✅ `Milbrandt_Yau_2006a` · ✅ `Milbrandt_Yau_2006b` · ✅ `Milbrandt_etal_2008` · ✅ `Milbrandt_McTaggart-Cowan_2010` · ✅ `Milbrandt_etal_2010` · ✅ `Morrison_Milbrandt_2011` · ✅ `Milbrandt_etal_2012_PAAG` · ✅ `Milbrandt_etal_2012_snowdensity`
-
-**Processed (12 of ~21):** ✅ `Milbrandt_Yau_2000` · ✅ `Milbrandt_Yau_2005a` · ✅ `Milbrandt_Yau_2005b` · ✅ `Milbrandt_Yau_2006a` · ✅ `Milbrandt_Yau_2006b` · ✅ `Milbrandt_etal_2008` · ✅ `Milbrandt_McTaggart-Cowan_2010` · ✅ `Milbrandt_etal_2010` · ✅ `Morrison_Milbrandt_2011` · ✅ `Milbrandt_etal_2012_PAAG` · ✅ `Milbrandt_etal_2012_snowdensity` · ✅ `Milbrandt_Morrison_2013`
+**Processed (14 of ~19 distinct papers):**
+✅ `Milbrandt_Yau_2000` · ✅ `Milbrandt_Yau_2005a` · ✅ `Milbrandt_Yau_2005b` · ✅ `Milbrandt_Yau_2006a` · ✅ `Milbrandt_Yau_2006b` · ✅ `Milbrandt_etal_2008` · ✅ `Milbrandt_McTaggart-Cowan_2010` · ✅ `Milbrandt_etal_2010` · ✅ `Morrison_Milbrandt_2011` · ✅ `Milbrandt_etal_2012_PAAG` · ✅ `Milbrandt_etal_2012_snowdensity` · ✅ `Milbrandt_Morrison_2013` · ✅ `Morrison_Milbrandt_2015a` (P3 Part I) · ✅ `Morrison_etal_2015b` (P3 Part II)
 
 **Notes on duplicate PDFs:**
-- `Milbrandt_etal2012_PAAG.pdf` and `Milbrandt_etal_2012-1Dsnowmelting.pdf` → same paper (DOI: 10.1007/s00024-012-0552-y); the `-1Dsnowmelting.pdf` is the final print version.
+- `Milbrandt_etal2012_PAAG.pdf` and `Milbrandt_etal_2012-1Dsnowmelting.pdf` → same paper (DOI: 10.1007/s00024-012-0552-y); both have been processed (PAAG = earlier draft, snowmelting = final print). Two article-md files exist; `Milbrandt_etal_2012_snowmelting-summary.md` is the authoritative summary.
 - `Milbrandt_Morrison-JAS_2013.pdf` and `Milbrandt_Morrison_2013-grpl_density.pdf` → same paper (DOI: 10.1175/JAS-D-12-0204.1); both are the graupel-density paper.
 
-**Not yet processed (9):**
+**Not yet processed (5):**
 
 | Stem | PDF | Topic |
 |------|-----|-------|
-| `Morrison_Milbrandt_2015` | `Morrison_Milbrandt_2015-P3_part1.pdf` | **P3 Part 1** |
-| `Morrison_etal_2015` | `Morrison_etal_2015-P3_part2.pdf` | **P3 Part 2** |
-| `Milbrandt_Morrison_2016` | `Milbrandt_Morrison_2016-P3_part3.pdf` | **P3 Part 3** |
-| `Milbrandt_etal_2016` | `Milbrandt_etal_2016_WAF.pdf` | — |
-| `Jouan_Milbrandt_2019` | `Jouan_Milbrandt_JAS_2019.pdf` | — |
+| `Milbrandt_Morrison_2016` | `Milbrandt_Morrison_2016-P3_part3.pdf` | **P3 Part III** (multi-category ice) |
+| `Milbrandt_etal_2016` | `Milbrandt_etal_2016_WAF.pdf` | Weather and Forecasting operational paper |
+| `Jouan_Milbrandt_2019` | `Jouan_Milbrandt_JAS_2019.pdf` | JAS 2019 |
 | `Milbrandt_etal_2021` | `Milbrandt_etal_2021-JAS-3momI.pdf` | Three-moment ice |
-| `Milbrandt_etal_2025` | `Milbrandt_etal_2025_JAMES.pdf` | — |
+| `Milbrandt_etal_2025` | `Milbrandt_etal_2025_JAMES.pdf` | JAMES 2025 |
 
-*This tracker should be updated each time a new summary is added, and Sections 2–5 revised to incorporate the new material (especially the P3 papers, which will substantially extend the narrative arc).*
+*This tracker should be updated each time a new summary is added, and Sections 2–5 revised to incorporate the new material.*
