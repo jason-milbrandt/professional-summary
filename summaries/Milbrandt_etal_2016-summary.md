@@ -5,6 +5,7 @@
 **Year:** 2016
 **Authors:** Jason A. Milbrandt, Stéphane Bélair, Manon Faucher, Marcel Vallée, Marco L. Carrera, Anna Glazer
 **DOI:** 10.1175/WAF-D-16-0035.1
+**Author's role:** Tier 1 — Lead author; led the design, implementation, and verification of the HRDPS 2.5-km operational NWP system
 
 ---
 

@@ -24,6 +24,7 @@
 **DOI Part I:** 10.1175/JAS-D-14-0065.1
 **DOI Part II:** 10.1175/JAS-D-14-0066.1
 **DOI Part III:** 10.1175/JAS-D-15-0204.1
+**Author's role:** Tier 1 (co-lead) for Parts I & II — co-developed the P3 scheme on equal intellectual footing with Morrison, contributing the MY2 framework, rime-volume budget formulation, and density-dependent fall-speed approach; Morrison's first authorship for Parts I and II is nominal. Tier 1 (lead) for Part III — first author; developed the multiple-free-category extension and all associated algorithmic design choices.
 
 ---
 

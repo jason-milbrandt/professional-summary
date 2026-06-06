@@ -5,6 +5,7 @@
 **Year:** 2010
 **Authors:** J. A. Milbrandt, R. McTaggart-Cowan
 **DOI:** 10.1175/2010JAS3541.1
+**Author's role:** Tier 1 — Lead author; identified and characterized sedimentation-induced errors in bulk microphysics schemes and proposed diagnostic corrections
 
 ---
 

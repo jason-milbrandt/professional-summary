@@ -5,6 +5,7 @@
 **Year:** 2005
 **Authors:** J. A. Milbrandt, M. K. Yau
 **DOI:** 10.1175/JAS3534.1
+**Author's role:** Tier 1 — Lead author; developed the spectral shape parameter analysis framework and the multimoment bulk microphysics parameterization concept
 
 ---
 

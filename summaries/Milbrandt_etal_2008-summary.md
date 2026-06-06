@@ -5,6 +5,7 @@
 **Year:** 2008
 **Authors:** J. A. Milbrandt, M. K. Yau, J. Mailhot, S. Bélair
 **DOI:** 10.1175/2008MWR2197.1
+**Author's role:** Tier 1 — Lead author; designed the study and performed WRF simulations evaluating the MY scheme against IMPROVE-2 aircraft and surface observations
 
 ---
 

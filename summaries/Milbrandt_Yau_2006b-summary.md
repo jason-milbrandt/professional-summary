@@ -5,6 +5,7 @@
 **Year:** 2006
 **Authors:** J. A. Milbrandt, M. K. Yau
 **DOI:** 10.1175/JAS3817.1
+**Author's role:** Tier 1 — Lead author; designed and ran the sensitivity experiments quantifying the cost–benefit of additional moments
 
 ---
 

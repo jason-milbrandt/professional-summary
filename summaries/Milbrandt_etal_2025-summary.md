@@ -4,6 +4,7 @@
 **Journal:** Journal of Advances in Modeling Earth Systems (JAMES)
 **Year:** 2025
 **Authors:** Jason A. Milbrandt, Hugh Morrison, Mélissa Cholette
+**Author's role:** Tier 1 — Lead author; developed and tested the predicted liquid fraction and multi-category hail capabilities in P3
 
 ---
 

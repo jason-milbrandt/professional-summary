@@ -7,6 +7,7 @@
 **Year:** 2016
 **Authors:** J. A. Milbrandt, H. Morrison
 **DOI:** 10.1175/JAS-D-15-0204.1
+**Author's role:** Tier 1 — Lead author; developed the multiple-free-category extension to P3 and all associated algorithmic design choices
 
 ---
 

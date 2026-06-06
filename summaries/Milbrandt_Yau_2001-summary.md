@@ -5,6 +5,7 @@
 **Year:** 2001 (manuscript received January 2000; published June 2001)  
 **Authors:** J. A. Milbrandt, M. K. Yau  
 **DOI:** Not extracted from PDF; search via Mon. Wea. Rev. vol. 129, pp. 1419–1440
+**Author's role:** Tier 1 — Lead author; designed and ran the MC2 mesoscale simulations with PV inversion and factor-separation analysis of the Saguenay flood
 
 ---
 

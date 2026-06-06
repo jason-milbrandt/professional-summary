@@ -5,6 +5,7 @@
 **Year:** 2011
 **Authors:** H. Morrison (NCAR), J. A. Milbrandt (Environment Canada)
 **DOI:** 10.1175/2010MWR3433.1
+**Author's role:** Tier 2 — Key co-author; provided the MY2 scheme implementation, contributed to study design, and co-interpreted the microphysical differences between the MOR and MY schemes
 
 ---
 

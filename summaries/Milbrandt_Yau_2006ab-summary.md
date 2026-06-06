@@ -7,6 +7,7 @@
 **Journal:** *Journal of the Atmospheric Sciences*
 **Year:** 2006
 **Authors:** J. A. Milbrandt, M. K. Yau
+**Author's role:** Tier 1 — Lead author on both parts; designed and ran the 3D three-moment hailstorm control simulation and the full suite of moment-sensitivity experiments
 
 ---
 

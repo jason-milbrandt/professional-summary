@@ -9,6 +9,7 @@
 **Journal:** *Journal of the Atmospheric Sciences*
 **Year:** 2005
 **Authors:** J. A. Milbrandt, M. K. Yau
+**Author's role:** Tier 1 — Lead author on both parts; developed the multimoment bulk microphysics parameterization concept, spectral shape parameter analysis, three-moment closure, and full six-category MY scheme description
 
 ---
 

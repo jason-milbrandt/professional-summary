@@ -5,6 +5,7 @@
 **Year:** 2012
 **Authors:** J. A. Milbrandt, A. Glazer, D. Jacob
 **DOI:** 10.1175/MWR-D-11-00286.1
+**Author's role:** Tier 1 — Lead author; developed the snow-to-liquid ratio prediction method and updated MY2 snow category for operational deployment
 
 ---
 

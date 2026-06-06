@@ -5,6 +5,7 @@
 **Year:** 2013
 **Authors:** J. A. Milbrandt, H. Morrison
 **DOI:** 10.1175/JAS-D-12-0204.1
+**Author's role:** Tier 1 — Lead author; developed the prognostic graupel density approach and the Re–X density-dependent fall-speed framework
 
 ---
 

@@ -4,6 +4,7 @@
 **Journal:** Journal of the Atmospheric Sciences
 **Year:** 2021
 **Authors:** Jason A. Milbrandt, Hugh Morrison, Daniel T. Dawson II, Marco Paukert
+**Author's role:** Tier 1 — Lead author; developed the triple-moment ice (sixth-moment PSD) extension to the P3 scheme
 
 ---
 

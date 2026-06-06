@@ -5,6 +5,7 @@
 **Year:** 2014 (published online 2012)
 **Authors:** J. A. Milbrandt, J. Thériault, R. Mo
 **DOI:** 10.1007/s00024-012-0552-y
+**Author's role:** Tier 1 — Lead author; developed the 1D kinematic snow-melting framework and sensitivity analysis
 
 ---
 

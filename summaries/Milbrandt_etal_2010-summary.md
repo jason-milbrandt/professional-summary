@@ -5,6 +5,7 @@
 **Year:** 2010
 **Authors:** J. A. Milbrandt, M. K. Yau, J. Mailhot, S. Bélair, R. McTaggart-Cowan
 **DOI:** 10.1175/2009MWR3121.1
+**Author's role:** Tier 1 — Lead author; designed and ran the moment-sensitivity experiments for IMPROVE-2 Part II
 
 ---
 

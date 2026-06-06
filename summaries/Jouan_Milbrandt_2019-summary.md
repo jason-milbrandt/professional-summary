@@ -5,6 +5,7 @@
 **Year:** 2019
 **Authors:** Caroline Jouan, Jason A. Milbrandt
 **DOI:** 10.1175/JAS-D-18-0168.1
+**Author's role:** Tier 2 — Key co-author; supervised the research and provided expertise and resources in ice-phase microphysics parameterization
 
 ---
 

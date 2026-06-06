@@ -5,6 +5,7 @@
 **Year:** 2006
 **Authors:** J. A. Milbrandt, M. K. Yau
 **DOI:** 10.1175/JAS3816.1
+**Author's role:** Tier 1 — Lead author; designed and ran the first 3D three-moment cloud-resolving supercell simulation (Pine Lake hailstorm)
 
 ---
 

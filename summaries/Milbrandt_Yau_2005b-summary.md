@@ -5,6 +5,7 @@
 **Year:** 2005
 **Authors:** J. A. Milbrandt, M. K. Yau
 **DOI:** Not available in print; paper identified on Semantic Scholar (paperId: 2da38a47aa7e984a7251087e8ba2914c7ddf143c)
+**Author's role:** Tier 1 — Lead author; developed the three-moment closure and full six-category MY scheme description
 
 ---
 
