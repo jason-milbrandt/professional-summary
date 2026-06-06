@@ -1,6 +1,6 @@
 # Processing Status
 
-Last updated: 2026-06-06 (Phase 4 batch 6: 4 more Tier 3 papers done — Makar_etal_2021, McTaggart-Cowan_etal_2019, Mo_etal_2012, Mo_etal_2019; total T3 complete: 27 of 39)
+Last updated: 2026-06-06 (Phase 4 batch 7: 4 more Tier 3 papers done — Morrison_etal_2016, Morrison_etal_2020, Paukert_etal_2019, Qu_etal_2018; total T3 complete: 31 of 39)
 
 ---
 
@@ -50,7 +50,7 @@ Last updated: 2026-06-06 (Phase 4 batch 6: 4 more Tier 3 papers done — Makar_e
 
 ---
 
-## Tier 3 (contributing co-author, 39 papers — 27 complete, 12 remaining)
+## Tier 3 (contributing co-author, 39 papers — 31 complete, 8 remaining)
 
 | Normalized stem | Source PDF | articles-md | summary |
 |-----------------|------------|-------------|---------|
@@ -81,10 +81,10 @@ Last updated: 2026-06-06 (Phase 4 batch 6: 4 more Tier 3 papers done — Makar_e
 | McTaggart-Cowan_etal_2019 | `McTaggart-Cowan_et_al-2019-JAMES.pdf` | ✅ | ✅ | ~74 citations |
 | Mo_etal_2012 | `Mo_etal_2012-SNOW_V10.pdf` | ✅ | ✅ | ~20 citations |
 | Mo_etal_2019 | `Mo_etal_2019-WAF.pdf` | ✅ | ✅ | ~31 citations |
-| Morrison_etal_2016 | `Morrison_etal_2016-MWR-advection.pdf` | ❌ | ❌ |
-| Morrison_etal_2020 | `Morrison_etal_2020_JAMES.pdf` | ❌ | ❌ |
-| Paukert_etal_2019 | `Paukert_etal_2019-JAMES.pdf` | ❌ | ❌ |
-| Qu_etal_2018 | `Qu_etal-QJRMS-2018.pdf` | ❌ | ❌ |
+| Morrison_etal_2016 | `Morrison_etal_2016-MWR-advection.pdf` | ✅ | ✅ | ~17 citations |
+| Morrison_etal_2020 | `Morrison_etal_2020_JAMES.pdf` | ✅ | ✅ | ~378 citations |
+| Paukert_etal_2019 | `Paukert_etal_2019-JAMES.pdf` | ✅ | ✅ | ~38 citations |
+| Qu_etal_2018 | `Qu_etal-QJRMS-2018.pdf` | ✅ | ✅ | ~16 citations |
 | Qu_etal_2020 | `Qu_etal-accp_2020.pdf` | ❌ | ❌ |
 | Qu_etal_2022 | `Qu_etal_2022-ACP.pdf` | ❌ | ❌ |
 | RPN_report | `Recherche en Pr vision Num rique...pdf` | ❌ | ❌ |
@@ -134,5 +134,5 @@ Last updated: 2026-06-06 (Phase 4 batch 6: 4 more Tier 3 papers done — Makar_e
 - File naming convention: normalize stems (strip journal abbreviations, use underscores)
 - `Milbrandt_etal2012_PAAG.pdf` = `Milbrandt_etal_2012-1Dsnowmelting.pdf` (same paper, DOI 10.1007/s00024-012-0552-y)
 - Tier 2 papers: 9 complete ✅
-- Tier 3 papers: 12 remaining (27 of 39 done — contributing co-author — peripheral or supporting role)
+- Tier 3 papers: 8 remaining (31 of 39 done — contributing co-author — peripheral or supporting role)
 - Total scope: 68 papers (56 complete + 12 T3 pending); note: Gultepe_2014_BAMS and Gultepe_etal_2014_BAMS are the same paper, so effectively 38 unique Tier 3 papers
