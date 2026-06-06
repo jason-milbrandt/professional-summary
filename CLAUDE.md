@@ -53,6 +53,7 @@ PDF filenames vary (some include journal abbreviations, some don't). Use a **nor
 | `articles-pdf/Milbrandt_Morrison-JAS_2013.pdf` | `articles-md/Milbrandt_Morrison_2013.md` | `summaries/Milbrandt_Morrison_2013-summary.md` |
 | `articles-pdf/Jouan_Milbrandt_JAS_2019.pdf` | `articles-md/Jouan_Milbrandt_2019.md` | `summaries/Jouan_Milbrandt_2019-summary.md` |
 | `articles-pdf/Morrison_etal_2015-P3_part2.pdf` | `articles-md/Morrison_etal_2015b.md` | `summaries/Morrison_etal_2015b-summary.md` |
+| `articles-pdf/Milbrandt_Morrison_2016-P3_part3.pdf` | `articles-md/Milbrandt_Morrison_2016.md` | `summaries/Milbrandt_Morrison_2016-summary.md` |
 
 Multi-part papers that are naturally paired (e.g., 2005a + 2005b) may be summarized together in a single file (e.g., `summaries/Milbrandt_Yau_2005ab-summary.md`), but only if the papers were published as a pair and are best understood together. Always note this at the top of a combined summary.
 
