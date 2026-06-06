@@ -1,6 +1,6 @@
 # Processing Status
 
-Last updated: 2026-06-06 (Milbrandt_etal_2021 and Milbrandt_etal_2025 added — all PDFs now processed)
+Last updated: 2026-06-06 (P3 Parts I, II & III merged into combined summary `Morrison_Milbrandt_2015_2016-P3-summary.md`)
 
 ## Completed
 
@@ -21,10 +21,10 @@ Last updated: 2026-06-06 (Milbrandt_etal_2021 and Milbrandt_etal_2025 added — 
 | Milbrandt_etal_2012_snowmelting | ✅ | ✅ | ~15 citations; same paper as PAAG (final print version) |
 | Milbrandt_etal_2012_snowdensity | ✅ | ✅ | ~26 citations |
 | Milbrandt_Morrison_2013 | ✅ | ✅ | ~62 citations |
-| Morrison_Milbrandt_2015a | ✅ | — | P3 Part I; combined summary in Morrison_etal_2015ab |
-| Morrison_etal_2015b | ✅ | — | P3 Part II; combined summary in Morrison_etal_2015ab |
-| Morrison_etal_2015ab | — | ✅ combined | P3 Parts I & II combined summary; ~511 + ~211 citations |
-| Milbrandt_Morrison_2016 | ✅ | ✅ | P3 Part III (multi-category); ~131 citations |
+| Morrison_Milbrandt_2015a | ✅ | — | P3 Part I; combined summary in Morrison_Milbrandt_2015_2016-P3 |
+| Morrison_etal_2015b | ✅ | — | P3 Part II; combined summary in Morrison_Milbrandt_2015_2016-P3 |
+| Morrison_Milbrandt_2015_2016-P3 | — | ✅ combined | P3 Parts I, II & III combined summary; ~511 + ~211 + ~131 citations |
+| Milbrandt_Morrison_2016 | ✅ | ✅ (stub) | P3 Part III; standalone summary retained with note pointing to combined |
 | Milbrandt_etal_2016 | ✅ | ✅ | HRDPS 2.5-km system description; ~152 citations |
 | Jouan_Milbrandt_2019 | ✅ | ✅ | CCN sensitivity / ice-phase microphysics; ~11 citations |
 | Milbrandt_etal_2021 | ✅ | ✅ | Triple-moment ice in P3; ~46 citations |

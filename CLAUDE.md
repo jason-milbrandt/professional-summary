@@ -56,7 +56,7 @@ PDF filenames vary (some include journal abbreviations, some don't). Use a **nor
 | `articles-pdf/Milbrandt_Morrison_2016-P3_part3.pdf` | `articles-md/Milbrandt_Morrison_2016.md` | `summaries/Milbrandt_Morrison_2016-summary.md` |
 | `articles-pdf/Milbrandt_etal_2016_WAF.pdf` | `articles-md/Milbrandt_etal_2016.md` | `summaries/Milbrandt_etal_2016-summary.md` |
 
-Multi-part papers that are naturally paired (e.g., 2005a + 2005b) may be summarized together in a single file (e.g., `summaries/Milbrandt_Yau_2005ab-summary.md`), but only if the papers were published as a pair and are best understood together. Always note this at the top of a combined summary.
+Multi-part papers that form a natural series may be summarized together in a single combined file, but only if the papers are best understood as a unit. Always note this at the top of a combined summary. The combined filename should reflect the series as a whole rather than any individual paper (e.g., `summaries/Milbrandt_Yau_2005ab-summary.md` for the 2-part MY series; `summaries/Morrison_Milbrandt_2015_2016-P3-summary.md` for the 3-part P3 series spanning 2015–2016). Individual per-paper summaries may also exist alongside a combined summary and should include a cross-reference note pointing to the combined file.
 
 ---
 

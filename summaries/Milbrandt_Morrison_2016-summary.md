@@ -1,5 +1,7 @@
 # Summary: Milbrandt and Morrison (2016) — P3 Part III
 
+**Note:** The content of this summary has been merged into the combined P3 series summary (`Morrison_Milbrandt_2015_2016-P3-summary.md`), which now covers Parts I, II, and III together. This standalone file is retained for reference.
+
 **Full citation:** Milbrandt, J. A., and H. Morrison, 2016: Parameterization of cloud microphysics based on the prediction of bulk ice particle properties. Part III: Introduction of multiple free categories. *J. Atmos. Sci.*, **73**, 975–995, doi:10.1175/JAS-D-15-0204.1
 **Journal:** Journal of the Atmospheric Sciences
 **Year:** 2016

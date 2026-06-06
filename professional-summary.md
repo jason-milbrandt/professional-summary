@@ -80,10 +80,11 @@ A distinctive methodological contribution from **Part III**: the diagnostic para
 | 2013 | `Milbrandt_Morrison_2013` | **Prognostic graupel density** — adds $B_g = q_g/\rho_g$ as new prognostic variable; density-dependent fall speeds via Re–$X$ formulation; single rimed-ice category can span lightly rimed snow to hail-like ice; paradigm-shift framing directly anticipating P3. | ~62 |
 | 2015a | `Morrison_Milbrandt_2015a` | **P3 Part I** — introduces the Predicted Particle Properties (P3) scheme: single free ice category with four prognostic variables ($q_i$, $N_i$, $q_{rim}$, $B_{rim}$) allowing $F_r$ and $\rho_r$ to evolve freely; physically consistent $m$–$D$, $A$–$D$, and fall speed for all particle states; eliminates predefined ice categories and all artificial conversion processes; idealized 2D squall-line tests show realistic wide range of particle characteristics. | ~511 |
 | 2015b | `Morrison_etal_2015b` | **P3 Part II** — 3D WRF evaluation of P3 against observations and 8 other schemes for a midlatitude squall line and IMPROVE-2 orographic case; P3 correctly simulates narrow high-reflectivity convective leading edge (due to hail-like fall speeds) and greater windward/less leeward orographic precipitation (due to predicted riming enhancement); computationally efficient (~11% overhead vs. WSM6 despite 7 prognostic variables). | ~211 |
+| 2016 | `Milbrandt_Morrison_2016` | **P3 Part III** — extends P3 to $n_{Cat}$ user-specified free ice categories; eliminates "property dilution" (blending of distinct ice populations in a single category); new algorithmic elements for destination-category selection, inter-category collection, and category merging; convergence at $n_{Cat}\approx3$–4; enables physically correct rime splintering (requires $n_{Cat}\geq2$); first multiple-free-category bulk microphysics scheme. | ~131 |
 
 ¹ Semantic Scholar, retrieved 2026-05-25 (Parts I–II) and 2026-06-06 (Parts III–IV, 2008, 2010–2015); approximate, recheck before citing.
 
-**Combined summaries available:** `Milbrandt_Yau_2005ab-summary.md` (Parts I & II), `Milbrandt_Yau_2006ab-summary.md` (Parts III & IV), and `Morrison_etal_2015ab-summary.md` (P3 Parts I & II) treat each natural pair as a unit.
+**Combined summaries available:** `Milbrandt_Yau_2005ab-summary.md` (Parts I & II), `Milbrandt_Yau_2006ab-summary.md` (Parts III & IV), and `Morrison_Milbrandt_2015_2016-P3-summary.md` (P3 Parts I, II & III) treat each natural series as a unit.
 
 ---
 
@@ -111,8 +112,8 @@ The single early mesoscale paper (Saguenay, 2001) is not central to this microph
 
 ## Coverage Tracker
 
-**Processed (14 of ~19 distinct papers):**
-✅ `Milbrandt_Yau_2001` · ✅ `Milbrandt_Yau_2005a` · ✅ `Milbrandt_Yau_2005b` · ✅ `Milbrandt_Yau_2006a` · ✅ `Milbrandt_Yau_2006b` · ✅ `Milbrandt_etal_2008` · ✅ `Milbrandt_McTaggart-Cowan_2010` · ✅ `Milbrandt_etal_2010` · ✅ `Morrison_Milbrandt_2011` · ✅ `Milbrandt_etal_2012_PAAG` · ✅ `Milbrandt_etal_2012_snowdensity` · ✅ `Milbrandt_Morrison_2013` · ✅ `Morrison_Milbrandt_2015a` (P3 Part I) · ✅ `Morrison_etal_2015b` (P3 Part II)
+**Processed (15 of ~19 distinct papers):**
+✅ `Milbrandt_Yau_2001` · ✅ `Milbrandt_Yau_2005a` · ✅ `Milbrandt_Yau_2005b` · ✅ `Milbrandt_Yau_2006a` · ✅ `Milbrandt_Yau_2006b` · ✅ `Milbrandt_etal_2008` · ✅ `Milbrandt_McTaggart-Cowan_2010` · ✅ `Milbrandt_etal_2010` · ✅ `Morrison_Milbrandt_2011` · ✅ `Milbrandt_etal_2012_PAAG` · ✅ `Milbrandt_etal_2012_snowdensity` · ✅ `Milbrandt_Morrison_2013` · ✅ `Morrison_Milbrandt_2015a` (P3 Part I) · ✅ `Morrison_etal_2015b` (P3 Part II) · ✅ `Milbrandt_Morrison_2016` (P3 Part III)
 
 **Notes on duplicate PDFs:**
 - `Milbrandt_etal2012_PAAG.pdf` and `Milbrandt_etal_2012-1Dsnowmelting.pdf` → same paper (DOI: 10.1007/s00024-012-0552-y); both have been processed (PAAG = earlier draft, snowmelting = final print). Two article-md files exist; `Milbrandt_etal_2012_snowmelting-summary.md` is the authoritative summary.
