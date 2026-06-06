@@ -1,6 +1,6 @@
 # Processing Status
 
-Last updated: 2026-06-06 (Phase 2 in progress: 4/9 Tier 2 papers complete — Barszcz_2018, Cholette_2019, Cholette_2023, Cholette_2024)
+Last updated: 2026-06-06 (Phase 2 complete: all 9 Tier 2 papers done — Barszcz_2018, Cholette_2019, Cholette_2023, Cholette_2024, Cholette_2025, Chosson_2014, Jouan_2020, Park_2024, Theriault_2015)
 
 ---
 
@@ -42,11 +42,11 @@ Last updated: 2026-06-06 (Phase 2 in progress: 4/9 Tier 2 papers complete — Ba
 | Cholette_etal_2019 | `Cholette_etal_2019-JAS.pdf` | ✅ | ✅ | ~28 citations |
 | Cholette_etal_2023 | `Cholette_etal_2023-JAMES.pdf` | ✅ | ✅ | ~13 citations |
 | Cholette_etal_2024 | `Cholette_etal_2024-GRL.pdf` | ✅ | ✅ | ~8 citations |
-| Cholette_etal_2025 | `Cholette_etal_2025-MWR.pdf` | ❌ | ❌ |
-| Chosson_etal_2014 | `Chosson_etal_2014_JAS.pdf` | ❌ | ❌ |
-| Jouan_etal_2020 | `Jouan_etal_2020-WAF.pdf` | ❌ | ❌ |
-| Park_etal_2024 | `Park_etal_2024-graupel_WDM6.pdf` | ❌ | ❌ |
-| Theriault_etal_2015 | `Theriault_etal_2015.pdf` | ❌ | ❌ |
+| Cholette_etal_2025 | `Cholette_etal_2025-MWR.pdf` | ✅ | ✅ | ~0 citations (recent) |
+| Chosson_etal_2014 | `Chosson_etal_2014_JAS.pdf` | ✅ | ✅ | ~29 citations |
+| Jouan_etal_2020 | `Jouan_etal_2020-WAF.pdf` | ✅ | ✅ | ~14 citations |
+| Park_etal_2024 | `Park_etal_2024-graupel_WDM6.pdf` | ✅ | ✅ | ~4 citations (recent) |
+| Theriault_etal_2015 | `Theriault_etal_2015.pdf` | ✅ | ✅ | ~12 citations |
 
 ---
 
@@ -123,7 +123,7 @@ Last updated: 2026-06-06 (Phase 2 in progress: 4/9 Tier 2 papers complete — Ba
 | Phase | Task | Status |
 |-------|------|--------|
 | 1 | Summarize all 20 Tier 1/2 lead-authored papers | ✅ Complete |
-| 2 | Summarize 9 Tier 2 co-authored papers | 🔲 Next |
+| 2 | Summarize 9 Tier 2 co-authored papers | ✅ Complete |
 | 3 | Update `professional-summary.md` (Phases 1 + 2) | 🔲 Pending Phase 2 |
 | 4 | Summarize 39 Tier 3 co-authored papers | 🔲 Later |
 | 5 | Add "Related Contributions" section to `professional-summary.md` | 🔲 Pending Phase 4 |
