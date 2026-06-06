@@ -1,6 +1,6 @@
 # Processing Status
 
-Last updated: 2026-06-06 (Phase 4 batch 2: 5 more Tier 3 papers done — Fan_etal_2017, Gong_etal_2015, Gultepe_Milbrandt_2007, Gultepe_Milbrandt_2010, Gultepe_etal_2014_BAMS; total T3 complete: 10 of 39)
+Last updated: 2026-06-06 (Phase 4 batch 3: 5 more Tier 3 papers done — Han_etal_2019, Huang_etal_2021, Isaac_etal_2012, Jensen_2017, Joe_etal_2020; total T3 complete: 15 of 39)
 
 ---
 
@@ -64,11 +64,11 @@ Last updated: 2026-06-06 (Phase 4 batch 2: 5 more Tier 3 papers done — Fan_eta
 | Gultepe_Milbrandt_2007 | `Gultepe_Milbrandt_2007-PAGEO.pdf` | ✅ | ✅ | ~108 citations |
 | Gultepe_Milbrandt_2010 | `Gultepe_Milbrandt_2010-JAMC.pdf` | ✅ | ✅ | ~77 citations |
 | Gultepe_etal_2014_BAMS | `Gultepe_BAMS_14.pdf` = `Gultepe_etal_2014_BAMS.pdf` | ✅ | ✅ | ~83 citations; **duplicate PDFs — same paper** |
-| Han_etal_2019 | `Han_etal2019-JAMES.pdf` | ❌ | ❌ |
-| Huang_etal_2021 | `Huang_etal_2021-acp.pdf` | ❌ | ❌ |
-| Isaac_etal_2012 | `Isaac_etal_2012-SNOW_V10.pdf` | ❌ | ❌ |
-| Jensen_2017 | `Jensen_2017_JAS.pdf` | ❌ | ❌ |
-| Joe_etal_2020 | `Joe_etal_2020-BAMS-CAWS.pdf` | ❌ | ❌ |
+| Han_etal_2019 | `Han_etal2019-JAMES.pdf` | ✅ | ✅ | ~65 citations |
+| Huang_etal_2021 | `Huang_etal_2021-acp.pdf` | ✅ | ✅ | ~21 citations |
+| Isaac_etal_2012 | `Isaac_etal_2012-SNOW_V10.pdf` | ✅ | ✅ | ~64 citations |
+| Jensen_2017 | `Jensen_2017_JAS.pdf` | ✅ | ✅ | ~88 citations |
+| Joe_etal_2020 | `Joe_etal_2020-BAMS-CAWS.pdf` | ✅ | ✅ | citation count pending (rate-limited) |
 | Joe_etal_2025 | `Joe_etal_2025-BAMS.pdf` | ❌ | ❌ |
 | Johnson_etal_2019 | `Johnson_etal_2019-MWR.pdf` | ❌ | ❌ |
 | Kirkev_2017 | `Kirkev_BAMS_2017.pdf` | ❌ | ❌ |
