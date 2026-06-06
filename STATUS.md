@@ -1,6 +1,6 @@
 # Processing Status
 
-Last updated: 2026-06-06 (Phase 2 complete: all 9 Tier 2 papers done — Barszcz_2018, Cholette_2019, Cholette_2023, Cholette_2024, Cholette_2025, Chosson_2014, Jouan_2020, Park_2024, Theriault_2015)
+Last updated: 2026-06-06 (Phase 4 started: 5 Tier 3 papers done — Boudala_etal_2021, Boudala_Milbrandt_2023, Boudala_etal_2022, Cholette_etal_2020, Dawson_etal_2016)
 
 ---
 
@@ -54,11 +54,11 @@ Last updated: 2026-06-06 (Phase 2 complete: all 9 Tier 2 papers done — Barszcz
 
 | Normalized stem | Source PDF | articles-md | summary |
 |-----------------|------------|-------------|---------|
-| Boudala_etal_2021 | `Boudala_etal_2021-Vis1.pdf` | ❌ | ❌ |
-| Boudala_Milbrandt_2023 | `Boudala_Milbrandt_2023-Vis2.pdf` | ❌ | ❌ |
-| Boudala_etal_2022 | `Boudala_etal_2022-GCM.pdf` | ❌ | ❌ |
-| Cholette_etal_2020 | `Cholette_etal_2020-MWR.pdf` | ❌ | ❌ |
-| Dawson_etal_2016 | `Dawson_etal_2016_JAS.pdf` | ❌ | ❌ |
+| Boudala_etal_2021 | `Boudala_etal_2021-Vis1.pdf` | ✅ | ✅ | ~9 citations |
+| Boudala_Milbrandt_2023 | `Boudala_Milbrandt_2023-Vis2.pdf` | ✅ | ✅ | ~1 citation |
+| Boudala_etal_2022 | `Boudala_etal_2022-GCM.pdf` | ✅ | ✅ | ~7 citations |
+| Cholette_etal_2020 | `Cholette_etal_2020-MWR.pdf` | ✅ | ✅ | ~11 citations |
+| Dawson_etal_2016 | `Dawson_etal_2016_JAS.pdf` | ✅ | ✅ | ~20 citations |
 | Fan_etal_2017 | `Fan_etal_2017-JGR.pdf` | ❌ | ❌ |
 | Gong_etal_2015 | `Gong_etal_2015.pdf` | ❌ | ❌ |
 | Gultepe_Milbrandt_2007 | `Gultepe_Milbrandt_2007-PAGEO.pdf` | ❌ | ❌ |
