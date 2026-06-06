@@ -134,5 +134,5 @@ Last updated: 2026-06-06 (Phase 4 batch 5: 4 more Tier 3 papers done — Korolev
 - File naming convention: normalize stems (strip journal abbreviations, use underscores)
 - `Milbrandt_etal2012_PAAG.pdf` = `Milbrandt_etal_2012-1Dsnowmelting.pdf` (same paper, DOI 10.1007/s00024-012-0552-y)
 - Tier 2 papers: 9 complete ✅
-- Tier 3 papers: 24 remaining (15 of 39 done — contributing co-author — peripheral or supporting role)
-- Total scope: 68 papers (44 complete + 24 T3 pending); note: Gultepe_2014_BAMS and Gultepe_etal_2014_BAMS are the same paper, so effectively 38 unique Tier 3 papers
+- Tier 3 papers: 16 remaining (23 of 39 done — contributing co-author — peripheral or supporting role)
+- Total scope: 68 papers (52 complete + 16 T3 pending); note: Gultepe_2014_BAMS and Gultepe_etal_2014_BAMS are the same paper, so effectively 38 unique Tier 3 papers
