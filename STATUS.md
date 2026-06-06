@@ -1,6 +1,6 @@
 # Processing Status
 
-Last updated: 2026-06-06 (Phase 4 batch 7: 4 more Tier 3 papers done — Morrison_etal_2016, Morrison_etal_2020, Paukert_etal_2019, Qu_etal_2018; total T3 complete: 31 of 39)
+Last updated: 2026-06-06 (Phase 4 batch 8: 4 more Tier 3 papers done — Qu_etal_2020, Qu_etal_2022, RPN_report, Stanford_etal_2019; total T3 complete: 35 of 39)
 
 ---
 
@@ -85,10 +85,10 @@ Last updated: 2026-06-06 (Phase 4 batch 7: 4 more Tier 3 papers done — Morriso
 | Morrison_etal_2020 | `Morrison_etal_2020_JAMES.pdf` | ✅ | ✅ | ~378 citations |
 | Paukert_etal_2019 | `Paukert_etal_2019-JAMES.pdf` | ✅ | ✅ | ~38 citations |
 | Qu_etal_2018 | `Qu_etal-QJRMS-2018.pdf` | ✅ | ✅ | ~16 citations |
-| Qu_etal_2020 | `Qu_etal-accp_2020.pdf` | ❌ | ❌ |
-| Qu_etal_2022 | `Qu_etal_2022-ACP.pdf` | ❌ | ❌ |
-| RPN_report | `Recherche en Pr vision Num rique...pdf` | ❌ | ❌ |
-| Stanford_etal_2019 | `Standord_etal_2019-JAMES.pdf` | ❌ | ❌ |
+| Qu_etal_2020 | `Qu_etal-accp_2020.pdf` | ✅ | ✅ | ~15 citations |
+| Qu_etal_2022 | `Qu_etal_2022-ACP.pdf` | ✅ | ✅ | ~32 citations; Milbrandt co-conceptualized — note Tier 2 possible ⚠ verify |
+| RPN_report | `Recherche en Pr vision Num rique...pdf` | ✅ | ✅ | ~3 citations; invited review |
+| Stanford_etal_2019 | `Standord_etal_2019-JAMES.pdf` | ✅ | ✅ | ~19 citations |
 | Taylor_etal_2011 | `Taylor_etal2011_BAMS.pdf` | ❌ | ❌ |
 | Theriault_etal_2006 | `Theriault_etal_2006.pdf` | ❌ | ❌ |
 | Theriault_2012 | `Theriault_2012-WAF.pdf` | ❌ | ❌ |
