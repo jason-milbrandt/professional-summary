@@ -57,7 +57,7 @@ All papers are tagged with a tier reflecting Milbrandt's level of intellectual c
 - Tier 3 papers appear in a separate "Related Contributions" section
 - Language in summaries should not overstate the focal author's role — use "Milbrandt contributed X" rather than "Milbrandt developed X" for Tier 2/3 unless accurate
 
-**Paper inventory (as of 2026-06-06):** 48 complete (29 Tier 1/2 + 19 Tier 3) + 20 Tier 3 pending = 68 total in scope. See `STATUS.md` for the full list.
+**Paper inventory (as of 2026-06-06):** 56 complete (29 Tier 1/2 + 27 Tier 3) + 12 Tier 3 pending = 68 total in scope. See `STATUS.md` for the full list.
 
 ---
 
