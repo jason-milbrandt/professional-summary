@@ -1,6 +1,6 @@
 # Processing Status
 
-Last updated: 2026-06-06 (Co-authored paper inventory complete; 48 new papers catalogued across Tier 2 and Tier 3)
+Last updated: 2026-06-06 (Phase 2 in progress: 4/9 Tier 2 papers complete — Barszcz_2018, Cholette_2019, Cholette_2023, Cholette_2024)
 
 ---
 
@@ -38,10 +38,10 @@ Last updated: 2026-06-06 (Co-authored paper inventory complete; 48 new papers ca
 
 | Normalized stem | Source PDF | articles-md | summary |
 |-----------------|------------|-------------|---------|
-| Barszcz_etal_2018 | `Barszcz_etal_2018-WAF.pdf` | ❌ | ❌ |
-| Cholette_etal_2019 | `Cholette_etal_2019-JAS.pdf` | ❌ | ❌ |
-| Cholette_etal_2023 | `Cholette_etal_2023-JAMES.pdf` | ❌ | ❌ |
-| Cholette_etal_2024 | `Cholette_etal_2024-GRL.pdf` | ❌ | ❌ |
+| Barszcz_etal_2018 | `Barszcz_etal_2018-WAF.pdf` | ✅ | ✅ | ~17 citations |
+| Cholette_etal_2019 | `Cholette_etal_2019-JAS.pdf` | ✅ | ✅ | ~28 citations |
+| Cholette_etal_2023 | `Cholette_etal_2023-JAMES.pdf` | ✅ | ✅ | ~13 citations |
+| Cholette_etal_2024 | `Cholette_etal_2024-GRL.pdf` | ✅ | ✅ | ~8 citations |
 | Cholette_etal_2025 | `Cholette_etal_2025-MWR.pdf` | ❌ | ❌ |
 | Chosson_etal_2014 | `Chosson_etal_2014_JAS.pdf` | ❌ | ❌ |
 | Jouan_etal_2020 | `Jouan_etal_2020-WAF.pdf` | ❌ | ❌ |

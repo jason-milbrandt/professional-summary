@@ -57,7 +57,7 @@ All papers are tagged with a tier reflecting Milbrandt's level of intellectual c
 - Tier 3 papers appear in a separate "Related Contributions" section
 - Language in summaries should not overstate the focal author's role — use "Milbrandt contributed X" rather than "Milbrandt developed X" for Tier 2/3 unless accurate
 
-**Paper inventory (as of 2026-06-06):** 20 complete (all Tier 1/2) + 9 Tier 2 pending + 39 Tier 3 pending = 68 total in scope. See `STATUS.md` for the full list.
+**Paper inventory (as of 2026-06-06):** 24 complete (all Tier 1/2) + 5 Tier 2 pending + 39 Tier 3 pending = 68 total in scope. See `STATUS.md` for the full list.
 
 ---
 
@@ -189,7 +189,9 @@ The aggregated professional summary has two main sections reflecting the authors
 
 ### Current processing plan (as of 2026-06-06)
 1. ✅ **Phase 1 complete:** All 20 Tier 1/2 lead-authored papers summarized
-2. 🔲 **Phase 2 next:** Process the 9 Tier 2 co-authored papers
+2. 🔲 **Phase 2 in progress (4/9 done):** Process the 9 Tier 2 co-authored papers
+   - ✅ Barszcz_etal_2018, Cholette_etal_2019, Cholette_etal_2023, Cholette_etal_2024
+   - 🔲 Remaining: Cholette_etal_2025, Chosson_etal_2014, Jouan_etal_2020, Park_etal_2024, Theriault_etal_2015
 3. 🔲 **Phase 3:** Update `professional-summary.md` incorporating Phases 1 & 2
 4. 🔲 **Phase 4:** Process the 39 Tier 3 co-authored papers
 5. 🔲 **Phase 5:** Add "Related Contributions" section to `professional-summary.md`
