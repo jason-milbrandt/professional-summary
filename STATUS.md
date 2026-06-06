@@ -1,6 +1,6 @@
 # Processing Status
 
-Last updated: 2026-06-06 (Phase 4 started: 5 Tier 3 papers done — Boudala_etal_2021, Boudala_Milbrandt_2023, Boudala_etal_2022, Cholette_etal_2020, Dawson_etal_2016)
+Last updated: 2026-06-06 (Phase 4 batch 2: 5 more Tier 3 papers done — Fan_etal_2017, Gong_etal_2015, Gultepe_Milbrandt_2007, Gultepe_Milbrandt_2010, Gultepe_etal_2014_BAMS; total T3 complete: 10 of 39)
 
 ---
 
@@ -50,7 +50,7 @@ Last updated: 2026-06-06 (Phase 4 started: 5 Tier 3 papers done — Boudala_etal
 
 ---
 
-## Tier 3 (contributing co-author, 39 papers — 5 complete, 34 remaining)
+## Tier 3 (contributing co-author, 39 papers — 10 complete, 29 remaining)
 
 | Normalized stem | Source PDF | articles-md | summary |
 |-----------------|------------|-------------|---------|
@@ -59,12 +59,11 @@ Last updated: 2026-06-06 (Phase 4 started: 5 Tier 3 papers done — Boudala_etal
 | Boudala_etal_2022 | `Boudala_etal_2022-GCM.pdf` | ✅ | ✅ | ~7 citations |
 | Cholette_etal_2020 | `Cholette_etal_2020-MWR.pdf` | ✅ | ✅ | ~11 citations |
 | Dawson_etal_2016 | `Dawson_etal_2016_JAS.pdf` | ✅ | ✅ | ~20 citations |
-| Fan_etal_2017 | `Fan_etal_2017-JGR.pdf` | ❌ | ❌ |
-| Gong_etal_2015 | `Gong_etal_2015.pdf` | ❌ | ❌ |
-| Gultepe_Milbrandt_2007 | `Gultepe_Milbrandt_2007-PAGEO.pdf` | ❌ | ❌ |
-| Gultepe_Milbrandt_2010 | `Gultepe_Milbrandt_2010-JAMC.pdf` | ❌ | ❌ |
-| Gultepe_2014_BAMS | `Gultepe_BAMS_14.pdf` | ❌ | ❌ |
-| Gultepe_etal_2014_BAMS | `Gultepe_etal_2014_BAMS.pdf` | ❌ | ❌ |
+| Fan_etal_2017 | `Fan_etal_2017-JGR.pdf` | ✅ | ✅ | ~144 citations |
+| Gong_etal_2015 | `Gong_etal_2015.pdf` | ✅ | ✅ | ~77 citations |
+| Gultepe_Milbrandt_2007 | `Gultepe_Milbrandt_2007-PAGEO.pdf` | ✅ | ✅ | ~108 citations |
+| Gultepe_Milbrandt_2010 | `Gultepe_Milbrandt_2010-JAMC.pdf` | ✅ | ✅ | ~77 citations |
+| Gultepe_etal_2014_BAMS | `Gultepe_BAMS_14.pdf` = `Gultepe_etal_2014_BAMS.pdf` | ✅ | ✅ | ~83 citations; **duplicate PDFs — same paper** |
 | Han_etal_2019 | `Han_etal2019-JAMES.pdf` | ❌ | ❌ |
 | Huang_etal_2021 | `Huang_etal_2021-acp.pdf` | ❌ | ❌ |
 | Isaac_etal_2012 | `Isaac_etal_2012-SNOW_V10.pdf` | ❌ | ❌ |
@@ -114,7 +113,7 @@ Last updated: 2026-06-06 (Phase 4 started: 5 Tier 3 papers done — Boudala_etal
 | `Therieault_etal_2006.pdf` | Duplicate of `Theriault_etal_2006.pdf` (filename typo) |
 | `Mo_etal-mountain_clouds_2012.pdf` | Same paper as `Mo_etal_2012-SNOW_V10.pdf` — use SNOW_V10 version |
 | `Mailhot_2012-snowv10.pdf` | Same paper as `Mailhot_etal_2012-SNOW_V10.pdf` — use etal version |
-| `Gultepe_BAMS_14.pdf` vs `Gultepe_etal_2014_BAMS.pdf` | ⚠ Possibly same paper — confirm before processing |
+| `Gultepe_BAMS_14.pdf` vs `Gultepe_etal_2014_BAMS.pdf` | ✅ Confirmed identical — same paper (BAMS 2014 ice fog). Processed once as `Gultepe_etal_2014_BAMS`. |
 
 ---
 
@@ -135,5 +134,5 @@ Last updated: 2026-06-06 (Phase 4 started: 5 Tier 3 papers done — Boudala_etal
 - File naming convention: normalize stems (strip journal abbreviations, use underscores)
 - `Milbrandt_etal2012_PAAG.pdf` = `Milbrandt_etal_2012-1Dsnowmelting.pdf` (same paper, DOI 10.1007/s00024-012-0552-y)
 - Tier 2 papers: 9 complete ✅
-- Tier 3 papers: 34 remaining (5 of 39 done — contributing co-author — peripheral or supporting role)
-- Total scope: 68 papers (34 complete + 34 T3 pending)
+- Tier 3 papers: 29 remaining (10 of 39 done — contributing co-author — peripheral or supporting role)
+- Total scope: 68 papers (39 complete + 29 T3 pending); note: Gultepe_2014_BAMS and Gultepe_etal_2014_BAMS are the same paper, so effectively 38 unique Tier 3 papers
