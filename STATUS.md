@@ -1,6 +1,6 @@
 # Processing Status
 
-Last updated: 2026-06-06 (Phase 4 batch 9: 4 final Tier 3 papers done — Taylor_etal_2011, Theriault_etal_2006, Theriault_2012, Theriault_etal_2015; all 39 Tier 3 papers complete)
+Last updated: 2026-06-06 (Theriault_etal_2015 reclassified Tier 3 → Tier 2; totals now 30 Tier 1/2, 38 Tier 3)
 
 ---
 
@@ -46,11 +46,11 @@ Last updated: 2026-06-06 (Phase 4 batch 9: 4 final Tier 3 papers done — Taylor
 | Chosson_etal_2014 | `Chosson_etal_2014_JAS.pdf` | ✅ | ✅ | ~29 citations |
 | Jouan_etal_2020 | `Jouan_etal_2020-WAF.pdf` | ✅ | ✅ | ~14 citations |
 | Park_etal_2024 | `Park_etal_2024-graupel_WDM6.pdf` | ✅ | ✅ | ~4 citations (recent) |
-| Theriault_etal_2015 | `Theriault_etal_2015.pdf` | ✅ | ✅ | ~12 citations |
+| Theriault_etal_2015 | `Theriault_etal_2015.pdf` | ✅ | ✅ | ~12 citations; Milbrandt 2nd author, provided MY2 scheme and co-developed 1D companion (Milbrandt et al. 2014) |
 
 ---
 
-## Tier 3 (contributing co-author, 39 papers — 35 complete, 4 remaining)
+## Tier 3 (contributing co-author, 38 papers — all complete)
 
 | Normalized stem | Source PDF | articles-md | summary |
 |-----------------|------------|-------------|---------|
@@ -92,7 +92,7 @@ Last updated: 2026-06-06 (Phase 4 batch 9: 4 final Tier 3 papers done — Taylor
 | Taylor_etal_2011 | `Taylor_etal2011_BAMS.pdf` | ✅ | ✅ | ~25 citations |
 | Theriault_etal_2006 | `Theriault_etal_2006.pdf` | ✅ | ✅ | ~65 citations |
 | Theriault_2012 | `Theriault_2012-WAF.pdf` | ✅ | ✅ | ~22 citations |
-| Theriault_etal_2015 | `Theriault_etal_2015.pdf` | ✅ | ✅ | ~12 citations; Milbrandt 2nd author — tier noted as T2 in summary ⚠ verify vs T3 |
+<!-- Theriault_etal_2015 moved to Tier 2 table above (confirmed 2026-06-06) -->
 
 ---
 
@@ -123,9 +123,9 @@ Last updated: 2026-06-06 (Phase 4 batch 9: 4 final Tier 3 papers done — Taylor
 | Phase | Task | Status |
 |-------|------|--------|
 | 1 | Summarize all 20 Tier 1/2 lead-authored papers | ✅ Complete |
-| 2 | Summarize 9 Tier 2 co-authored papers | ✅ Complete |
-| 3 | Update `professional-summary.md` (Phases 1 + 2) | 🔲 Pending Phase 2 |
-| 4 | Summarize 39 Tier 3 co-authored papers | 🔲 Later |
+| 2 | Summarize 10 Tier 2 co-authored papers | ✅ Complete |
+| 3 | Update `professional-summary.md` (Phases 1 + 2) | 🔲 Next |
+| 4 | Summarize 38 Tier 3 co-authored papers | ✅ Complete |
 | 5 | Add "Related Contributions" section to `professional-summary.md` | 🔲 Pending Phase 4 |
 
 ---
@@ -134,6 +134,6 @@ Last updated: 2026-06-06 (Phase 4 batch 9: 4 final Tier 3 papers done — Taylor
 - Semantic Scholar API rate-limits under heavy use — use DOI-based lookups (`/paper/DOI:...`) instead of search for reliability
 - File naming convention: normalize stems (strip journal abbreviations, use underscores)
 - `Milbrandt_etal2012_PAAG.pdf` = `Milbrandt_etal_2012-1Dsnowmelting.pdf` (same paper, DOI 10.1007/s00024-012-0552-y)
-- Tier 2 papers: 9 complete ✅
-- Tier 3 papers: 4 remaining (35 of 39 done — contributing co-author — peripheral or supporting role)
-- Total scope: 68 papers (64 complete + 4 T3 pending); note: Gultepe_2014_BAMS and Gultepe_etal_2014_BAMS are the same paper, so effectively 38 unique Tier 3 papers
+- Tier 1/2 papers: 30 complete ✅ (20 Tier 1 lead-authored + 10 Tier 2 co-authored)
+- Tier 3 papers: 38 complete ✅ (contributing co-author — peripheral or supporting role); note: Gultepe_2014_BAMS and Gultepe_etal_2014_BAMS are the same paper, so effectively 38 unique Tier 3 papers
+- Total scope: 68 papers, all complete

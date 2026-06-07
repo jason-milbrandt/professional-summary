@@ -57,7 +57,7 @@ All papers are tagged with a tier reflecting Milbrandt's level of intellectual c
 - Tier 3 papers appear in a separate "Related Contributions" section
 - Language in summaries should not overstate the focal author's role — use "Milbrandt contributed X" rather than "Milbrandt developed X" for Tier 2/3 unless accurate
 
-**Paper inventory (as of 2026-06-06):** 68 complete (29 Tier 1/2 + 39 Tier 3) = 68 total in scope. All papers processed. See `STATUS.md` for the full list.
+**Paper inventory (as of 2026-06-06):** 68 complete (30 Tier 1/2 + 38 Tier 3) = 68 total in scope. All papers processed. See `STATUS.md` for the full list.
 
 ---
 
@@ -191,7 +191,7 @@ The aggregated professional summary has two main sections reflecting the authors
 1. ✅ **Phase 1 complete:** All 20 Tier 1/2 lead-authored papers summarized
 2. ✅ **Phase 2 complete:** All 9 Tier 2 co-authored papers summarized
 3. 🔲 **Phase 3 (next):** Update `professional-summary.md` incorporating Phases 1 & 2
-4. ✅ **Phase 4 complete:** All 39 Tier 3 co-authored papers summarized (Taylor_2011, Theriault_2006, Theriault_2012, Theriault_2015 completed 2026-06-06; note: Theriault_etal_2015 summary marks Milbrandt as Tier 2 — confirm with Jason)
+4. ✅ **Phase 4 complete:** All 38 Tier 3 co-authored papers summarized (Theriault_etal_2015 reclassified to Tier 2, confirmed 2026-06-06)
 5. 🔲 **Phase 5:** Add "Related Contributions" section to `professional-summary.md`
 
 ---
