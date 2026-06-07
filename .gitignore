@@ -2,4 +2,4 @@
 __pycache__/
 *.py
 _archive_v1/
-articles-pdf/
+articles-pdf
