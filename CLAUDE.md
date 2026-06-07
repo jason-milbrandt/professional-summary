@@ -57,7 +57,7 @@ All papers are tagged with a tier reflecting Milbrandt's level of intellectual c
 - Tier 3 papers appear in a separate "Related Contributions" section
 - Language in summaries should not overstate the focal author's role — use "Milbrandt contributed X" rather than "Milbrandt developed X" for Tier 2/3 unless accurate
 
-**Paper inventory (as of 2026-06-06):** 64 complete (29 Tier 1/2 + 35 Tier 3) + 4 Tier 3 pending = 68 total in scope. See `STATUS.md` for the full list.
+**Paper inventory (as of 2026-06-06):** 68 complete (29 Tier 1/2 + 39 Tier 3) = 68 total in scope. All papers processed. See `STATUS.md` for the full list.
 
 ---
 
@@ -191,7 +191,7 @@ The aggregated professional summary has two main sections reflecting the authors
 1. ✅ **Phase 1 complete:** All 20 Tier 1/2 lead-authored papers summarized
 2. ✅ **Phase 2 complete:** All 9 Tier 2 co-authored papers summarized
 3. 🔲 **Phase 3 (next):** Update `professional-summary.md` incorporating Phases 1 & 2
-4. 🔲 **Phase 4 (in progress):** Process the 39 Tier 3 co-authored papers — 35 done (Boudala_2021, Boudala_2022, Boudala_Milbrandt_2023, Cholette_2020, Dawson_2016, Fan_2017, Gong_2015, Gultepe_Milbrandt_2007, Gultepe_Milbrandt_2010, Gultepe_etal_2014_BAMS, Han_2019, Huang_2021, Isaac_2012, Jensen_2017, Joe_2020, Joe_2025, Johnson_2019, Kiktev_2017, Korolev_2020, Korolev_Milbrandt_2022, Mailhot_2012, Makar_2015a, Makar_2015b, Makar_2021, McTaggart-Cowan_2019, Mo_2012, Mo_2019, Morrison_2016, Morrison_2020, Paukert_2019, Qu_2018, Qu_2020, Qu_2022, RPN_report, Stanford_2019), 4 remaining; next: Taylor_etal_2011
+4. ✅ **Phase 4 complete:** All 39 Tier 3 co-authored papers summarized (Taylor_2011, Theriault_2006, Theriault_2012, Theriault_2015 completed 2026-06-06; note: Theriault_etal_2015 summary marks Milbrandt as Tier 2 — confirm with Jason)
 5. 🔲 **Phase 5:** Add "Related Contributions" section to `professional-summary.md`
 
 ---

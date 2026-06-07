@@ -1,6 +1,6 @@
 # Processing Status
 
-Last updated: 2026-06-06 (Phase 4 batch 8: 4 more Tier 3 papers done — Qu_etal_2020, Qu_etal_2022, RPN_report, Stanford_etal_2019; total T3 complete: 35 of 39)
+Last updated: 2026-06-06 (Phase 4 batch 9: 4 final Tier 3 papers done — Taylor_etal_2011, Theriault_etal_2006, Theriault_2012, Theriault_etal_2015; all 39 Tier 3 papers complete)
 
 ---
 
@@ -89,9 +89,10 @@ Last updated: 2026-06-06 (Phase 4 batch 8: 4 more Tier 3 papers done — Qu_etal
 | Qu_etal_2022 | `Qu_etal_2022-ACP.pdf` | ✅ | ✅ | ~32 citations; Milbrandt co-conceptualized — note Tier 2 possible ⚠ verify |
 | RPN_report | `Recherche en Pr vision Num rique...pdf` | ✅ | ✅ | ~3 citations; invited review |
 | Stanford_etal_2019 | `Standord_etal_2019-JAMES.pdf` | ✅ | ✅ | ~19 citations |
-| Taylor_etal_2011 | `Taylor_etal2011_BAMS.pdf` | ❌ | ❌ |
-| Theriault_etal_2006 | `Theriault_etal_2006.pdf` | ❌ | ❌ |
-| Theriault_2012 | `Theriault_2012-WAF.pdf` | ❌ | ❌ |
+| Taylor_etal_2011 | `Taylor_etal2011_BAMS.pdf` | ✅ | ✅ | ~25 citations |
+| Theriault_etal_2006 | `Theriault_etal_2006.pdf` | ✅ | ✅ | ~65 citations |
+| Theriault_2012 | `Theriault_2012-WAF.pdf` | ✅ | ✅ | ~22 citations |
+| Theriault_etal_2015 | `Theriault_etal_2015.pdf` | ✅ | ✅ | ~12 citations; Milbrandt 2nd author — tier noted as T2 in summary ⚠ verify vs T3 |
 
 ---
 
