@@ -1,6 +1,6 @@
 # Processing Status
 
-Last updated: 2026-06-06 (Theriault_etal_2015 reclassified Tier 3 → Tier 2; totals now 30 Tier 1/2, 38 Tier 3)
+Last updated: 2026-06-06 (`professional-summary.md` completed — full 68-paper coverage: Tier 1/2 narrative extended through 2025 + thematic Tier 3 "Related Contributions" section added)
 
 ---
 
@@ -124,9 +124,9 @@ Last updated: 2026-06-06 (Theriault_etal_2015 reclassified Tier 3 → Tier 2; to
 |-------|------|--------|
 | 1 | Summarize all 20 Tier 1/2 lead-authored papers | ✅ Complete |
 | 2 | Summarize 10 Tier 2 co-authored papers | ✅ Complete |
-| 3 | Update `professional-summary.md` (Phases 1 + 2) | 🔲 Next |
+| 3 | Update `professional-summary.md` (Phases 1 + 2) | ✅ Complete (2026-06-06) |
 | 4 | Summarize 38 Tier 3 co-authored papers | ✅ Complete |
-| 5 | Add "Related Contributions" section to `professional-summary.md` | 🔲 Pending Phase 4 |
+| 5 | Add "Related Contributions" section to `professional-summary.md` | ✅ Complete (2026-06-06) |
 
 ---
 

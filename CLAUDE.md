@@ -190,9 +190,9 @@ The aggregated professional summary has two main sections reflecting the authors
 ### Current processing plan (as of 2026-06-06)
 1. ✅ **Phase 1 complete:** All 20 Tier 1/2 lead-authored papers summarized
 2. ✅ **Phase 2 complete:** All 9 Tier 2 co-authored papers summarized
-3. 🔲 **Phase 3 (next):** Update `professional-summary.md` incorporating Phases 1 & 2
+3. ✅ **Phase 3 complete (2026-06-06):** `professional-summary.md` fully updated — Tier 1/2 narrative extended through 2025
 4. ✅ **Phase 4 complete:** All 38 Tier 3 co-authored papers summarized (Theriault_etal_2015 reclassified to Tier 2, confirmed 2026-06-06)
-5. 🔲 **Phase 5:** Add "Related Contributions" section to `professional-summary.md`
+5. ✅ **Phase 5 complete (2026-06-06):** "Related Contributions" section added to `professional-summary.md` — all 38 Tier 3 papers grouped thematically
 
 ---
 
