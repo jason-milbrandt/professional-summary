@@ -53,3 +53,6 @@ Milbrandt is third author. The P3 scheme (Morrison and Milbrandt 2015; Milbrandt
 **Citation count:** ~11 (Semantic Scholar, retrieved 2026-06-06)
 
 With 11 citations since 2020, the paper has had reasonable uptake in the winter precipitation microphysics community. It is the first real-case demonstration of mixed-phase particle prediction in a full 3D model, making it an important proof-of-concept. Follow-on work by Cholette and collaborators has continued to develop this extension ⚠ verify.
+
+## Related topics
+- [[winter-precipitation-type]]

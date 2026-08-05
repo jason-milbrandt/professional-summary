@@ -57,3 +57,6 @@ Milbrandt's contribution was technical: he provided updates to the aerosol indir
 **Citation count:** ~26 (Semantic Scholar, retrieved 2026-06-06)
 
 This paper has accumulated a moderate citation count since 2021, reflecting growing interest in online coupled air-quality/weather systems and fire–aerosol–weather interactions. It serves as a methodological reference for implementing fire feedback in operational NWP-coupled air-quality models, and is directly relevant to the FIREX-AQ community. Its documentation of the model spin-up issue in online coupled systems, and the boundary condition sensitivity analysis, are particularly useful for groups developing similar systems. ⚠ verify downstream implementations or specific citations by other groups.
+
+## Related topics
+- [[gem-mach-air-quality]]

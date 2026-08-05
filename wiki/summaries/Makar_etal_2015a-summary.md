@@ -52,3 +52,6 @@ Milbrandt's contribution was providing GEM-MACH with the MY2 microphysics scheme
 **Citation count:** ~137 (Semantic Scholar, retrieved 2026-06-06)
 
 This is a highly cited paper in the air-quality/NWP coupling literature, reflecting the significance of the AQMEII-2 intercomparison as a community benchmark. It is among the most-cited papers in this batch, consistent with the broader scope of the study (28 authors, multiple international modeling systems, two continental domains). The framework established by AQMEII-2 has been used as a reference point for subsequent coupled atmosphere-chemistry model development and operational implementation.
+
+## Related topics
+- [[gem-mach-air-quality]]

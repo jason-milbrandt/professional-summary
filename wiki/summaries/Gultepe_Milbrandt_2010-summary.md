@@ -52,3 +52,6 @@ Milbrandt is the 2nd author of this 2-author paper. His contribution was providi
 **Citation count:** ~77 (Semantic Scholar, retrieved 2026-06-06)
 
 This paper has had solid uptake in the fog and visibility forecasting literature, frequently cited in studies developing or evaluating NWP visibility schemes, particularly those addressing the need for probabilistic approaches and improved treatment of drizzle. It is a companion to the 2007 Gultepe–Milbrandt PAGEOPH paper and is often cited alongside it in the fog modelling community. ⚠ verify specific citing papers
+
+## Related topics
+- [[fog-visibility]]

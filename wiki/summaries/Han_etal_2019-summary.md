@@ -56,3 +56,6 @@ Milbrandt's MY2 (Milbrandt–Yau two-moment) and P3 schemes are two of the eight
 **Citation count:** ~65 (Semantic Scholar, retrieved 2026-06-06)
 
 This paper is the companion to Fan et al. (2017), which garnered ~144 citations. Together the two parts constitute a comprehensive CRM intercomparison study for the MC3E field campaign, providing community benchmark results for microphysics scheme evaluation. The paper's finding that stratiform precipitation area — not just rain rate — is the primary source of underestimation has influenced subsequent MCS modeling studies. The quantification of boundary condition update frequency sensitivity is a notable methodological contribution that has been cited in follow-on evaluation studies.
+
+## Related topics
+- [[scheme-intercomparisons]]

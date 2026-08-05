@@ -54,3 +54,6 @@ This paper is the central technical contribution of Milbrandt's doctoral work an
 **Citation count:** ~556 (Semantic Scholar, retrieved 2026-05-25)
 
 This paper has had substantial and sustained impact on the NWP microphysics community. With over 550 citations, it is one of the most-cited bulk microphysics scheme papers from the 2000s ⚠ verify. The MY scheme has been implemented in WRF and MC2/GEM and has served as a comparison benchmark in numerous studies ⚠ verify. Key comparative evaluations include Dawson et al. (2010), who showed improved cold pool structure in tornadic thunderstorm simulations with MY relative to single-moment schemes, and Morrison and Milbrandt (2011), who benchmarked MY against other two-moment schemes for supercell simulations ⚠ verify. The three-moment closure formulation described here remains the only published bulk scheme to fully prognose the shape parameter $\alpha$ for all precipitating categories, and the scheme description continues to be cited as a methodological reference for radar-reflectivity-based moment closures ⚠ verify.
+
+## Related topics
+- [[milbrandt-yau-scheme]]

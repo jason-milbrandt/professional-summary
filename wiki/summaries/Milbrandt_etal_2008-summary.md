@@ -56,3 +56,6 @@ This paper marks the transition in Milbrandt's program from *developing* the MY 
 **Citation count:** ~40 (Semantic Scholar, retrieved 2026-06-06)
 
 As a single-case validation/application paper, this work is cited less than the foundational MY scheme-description papers, consistent with its role as an evaluation study ⚠ verify (relative citation positioning). Its niche significance is as the first in situ microphysical validation of the MY scheme and as a contribution to the IMPROVE-2 model-intercomparison literature on orographic precipitation ⚠ verify (characterization of citing literature), where it documents both the strengths (realistic particle sizes, no leeside overprediction) and the snow-mass/cloud-water biases of the scheme. The identified biases informed subsequent refinements to the treatment of the ice phase in bulk schemes ⚠ verify (downstream influence on scheme development). It is paired with Part II (Milbrandt et al. 2010 ⚠ verify), which uses these control runs to isolate the effect of the number of predicted moments.
+
+## Related topics
+- [[observational-validation-sedimentation]]

@@ -53,3 +53,6 @@ Milbrandt was a member of the EC Atmospheric Numerical Prediction Research group
 **Citation count:** ~64 (Semantic Scholar, retrieved 2026-06-06)
 
 This overview paper has become the standard reference for the SNOW-V10 project as a whole, and is cited whenever the SNOW-V10 dataset or the Vancouver 2010 observational network is used. The project produced a rich observational dataset that continues to support research into mountain weather, nowcasting, and winter precipitation processes. The paper is a key reference for the broader WWRP Olympic weather nowcasting initiative.
+
+## Related topics
+- [[olympics-wwrp-nowcasting]]

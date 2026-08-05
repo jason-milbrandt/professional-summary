@@ -56,3 +56,6 @@ Milbrandt is the 11th of 12 authors. His contribution was providing the operatio
 **Citation count:** ~83 (Semantic Scholar, retrieved 2026-06-06)
 
 This BAMS overview paper has been widely cited in the Arctic fog, ice fog, and polar meteorology communities. As a comprehensive project description with broad scope (instrumentation, satellite, NWP), it serves as the primary reference for the FRAM-IF dataset and has influenced subsequent ice fog parameterization and satellite detection studies. ⚠ verify specific citing papers
+
+## Related topics
+- [[fog-visibility]]

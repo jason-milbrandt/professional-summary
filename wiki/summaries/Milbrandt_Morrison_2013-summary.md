@@ -60,3 +60,7 @@ Three specific threads from this paper run directly into P3: (1) the paradigm-sh
 **Citation count:** ~62 (Semantic Scholar, retrieved 2026-06-06)
 
 Cited comparably to the MY Parts III–IV (2006) papers, this paper's impact is primarily as a **conceptual and technical stepping stone to P3** ⚠ verify rather than as a widely deployed scheme modification in its own right ⚠ verify. It is cited in studies examining graupel/rimed-ice representation in bulk schemes ⚠ verify, and the prognostic bulk volume mixing ratio approach it uses was directly adopted in P3 (where the rime volume mixing ratio $V_r$ serves the same conceptual role for ice as $B_g$ does for graupel here). Its explicit framing of a "paradigm shift" away from fixed-category approaches is frequently cited in scheme-development discussions ⚠ verify.
+
+## Related topics
+- [[ice-phase-modernization]]
+- [[p3-scheme]]

@@ -60,3 +60,6 @@ This paper is part of the snow-category modernization program announced in IMPRO
 **Citation count:** ~15 (Semantic Scholar, retrieved 2026-06-06)
 
 As a single-case process study in a specialized journal (*Pure and Applied Geophysics*), this paper has modest citation count, consistent with its narrower scope ⚠ verify. Its significance is primarily within the trajectory of Milbrandt's own research program (as the process-study foundation for the snow-category updates) and for the precipitation-phase forecasting community in mountainous coastal regions ⚠ verify.
+
+## Related topics
+- [[ice-phase-modernization]]

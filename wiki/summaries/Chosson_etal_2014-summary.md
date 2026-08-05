@@ -53,3 +53,6 @@ MY2 is the foundational scheme that Milbrandt developed with Yau (Milbrandt and 
 **Citation count:** ~29 (Semantic Scholar, retrieved 2026-06-06)
 
 The paper had meaningful uptake, primarily cited in the context of adapting bulk microphysics schemes for coarser-resolution models. Its most direct downstream impact is in Jouan et al. (2020), which applied the SCPF approach to the P3 scheme, establishing a pathway for P3 to eventually replace Sundqvist in ECCC's global NWP systems. The paper is also cited in broader discussions of subgrid cloud parameterization for two-moment schemes.
+
+## Related topics
+- [[operational-nwp-scale-adaptation]]

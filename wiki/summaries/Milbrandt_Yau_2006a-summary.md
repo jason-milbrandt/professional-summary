@@ -56,3 +56,7 @@ This paper is the practical proving ground for the MY scheme that Milbrandt deve
 **Citation count:** ~62 (Semantic Scholar, retrieved 2026-06-06)
 
 As the application/demonstration paper of the four-part MY series, Part III is cited less heavily than the foundational Parts I and II (which together exceed 1,200 citations), but it holds a specific niche as the first 3D cloud-resolving simulation with a three-moment bulk scheme and as the origin of the $N_h^*$/$R_h^*$ hail-size diagnostics. It is cited in the hail-modeling and convective-storm microphysics literature, particularly in studies concerned with simulating and verifying hail size from bulk schemes, and it is a standard reference for the real-world validation pedigree of the MY scheme that was subsequently implemented across multiple community NWP models ⚠ verify.
+
+## Related topics
+- [[hail-diagnostics]]
+- [[milbrandt-yau-scheme]]

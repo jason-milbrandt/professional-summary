@@ -54,3 +54,6 @@ Milbrandt's contribution was limited to writing review and editing. This paper i
 **Citation count:** ~9 (Semantic Scholar, retrieved 2026-06-06)
 
 The paper addresses a practical and underserved need in cold-climate aviation meteorology. With 9 citations since 2021, uptake has been modest, consistent with its role as a specialized instrument-evaluation study rather than a methods or parameterization paper. It is part of a series of Cold Lake field campaign publications led by Boudala ⚠ verify.
+
+## Related topics
+- [[fog-visibility]]

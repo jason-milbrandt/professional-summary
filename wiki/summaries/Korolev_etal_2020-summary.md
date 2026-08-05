@@ -56,3 +56,6 @@ Milbrandt is the 7th of 8 authors. As a microphysics scheme developer at ECCC (M
 **Citation count:** ~122 (Semantic Scholar, retrieved 2026-06-06)
 
 This is a highly cited paper within the cloud microphysics community, reflecting the significance of establishing a new observational methodology for identifying SIP conditions and providing the first robust evidence that drop shattering — rather than Hallett–Mossop — may be the dominant SIP mechanism in many cloud types. The 122 citations reflect uptake in laboratory studies of drop freezing and shattering, modeling studies evaluating SIP parameterizations, and field campaign analyses seeking to validate or extend the findings to other cloud regimes. It has established the use of small faceted ice crystals as SIP tracers as a standard analysis approach.
+
+## Related topics
+- [[sip-hiwc-mixed-phase]]

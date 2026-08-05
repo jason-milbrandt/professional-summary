@@ -53,3 +53,6 @@ Milbrandt's contributions to this paper are as a scientific advisor and domain e
 **Citation count:** ~88 (Semantic Scholar, retrieved 2026-06-06)
 
 ISHMAEL has been adopted and further developed, and this paper is well-cited within the bulk microphysics development literature. It represents one of the most physically-based bulk ice schemes published to date, bridging the gap between single-particle theory (Jensen and Harrington, 2015) and full NWP application. Its emphasis on habit-dependent processes and natural ice sorting has influenced subsequent discussions of ice microphysics parameterization. The paper is a key reference for researchers working on next-generation bulk schemes that go beyond the P3/traditional framework.
+
+## Related topics
+- [[scheme-intercomparisons]]

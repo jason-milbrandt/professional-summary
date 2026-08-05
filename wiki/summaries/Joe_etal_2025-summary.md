@@ -53,3 +53,6 @@ Milbrandt is the 28th of 38 co-authors, all from the institutions that participa
 **Citation count:** 0 (Semantic Scholar, retrieved 2026-06-06)
 
 This is a very recent paper (accepted November 2024, published July 2025) and has not yet accumulated citations. As a broad programmatic review article published in BAMS — a high-visibility journal — it is likely to serve as the canonical reference for the 25-year NMR/WWRP nowcasting program and may accumulate moderate citations over time from researchers documenting the lineage of nowcasting projects and lessons learned.
+
+## Related topics
+- [[olympics-wwrp-nowcasting]]

@@ -55,3 +55,6 @@ This paper sits at the convergence of Milbrandt's two most recent P3 innovations
 **Citation count:** ~13 (Semantic Scholar, retrieved 2026-06-06)
 
 Recent paper (2023) with 13 citations, which is solid uptake for a specialized microphysics scheme paper in its first two years. The operational significance is larger than the citation count implies: the described configuration is the current operational P3 in HRDPS, meaning its impacts are embedded in daily operational NWP across Canada ⚠ verify. The bright-band reflectivity improvement and cold pool results have direct implications for both operational forecast verification and research uses of P3 in convective-scale modeling.
+
+## Related topics
+- [[p3-modern-extensions]]

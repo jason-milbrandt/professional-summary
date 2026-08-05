@@ -56,3 +56,6 @@ Milbrandt's role in this paper is the same as in Part 1: providing the MY2 micro
 **Citation count:** ~128 (Semantic Scholar, retrieved 2026-06-06)
 
 Highly cited alongside its companion paper, reflecting the significance of the AQMEII-2 intercomparison for the coupled air-quality/NWP modeling community. Together, the two Makar et al. (2015a,b) papers have been widely used as reference points for evaluating aerosol–weather feedback strength across modeling platforms and for motivating improvements to indirect effect parameterizations in coupled systems.
+
+## Related topics
+- [[gem-mach-air-quality]]

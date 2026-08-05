@@ -55,3 +55,6 @@ Milbrandt is the 13th author out of 16, indicating a supporting role. His contri
 **Citation count:** ~144 (Semantic Scholar, retrieved 2026-06-06)
 
 This paper has accumulated substantial citations for a 2017 JGR-Atmospheres article, reflecting its value as a controlled microphysics intercomparison study. It has become a reference point for understanding the sensitivity of cloud-resolving simulations to microphysics choice in midlatitude convection, complementing earlier tropical intercomparison studies (TWP-ICE). The study is frequently cited in papers developing or evaluating microphysics schemes and in studies of aerosol–convection interactions where the microphysics sensitivity baseline matters. ⚠ verify specific citing papers
+
+## Related topics
+- [[scheme-intercomparisons]]

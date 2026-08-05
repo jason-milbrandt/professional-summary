@@ -54,3 +54,6 @@ Milbrandt contributed as one of several ECCC RPN scientists supporting this stud
 **Citation count:** ~15 (Semantic Scholar, retrieved 2026-06-06)
 
 The paper addresses a problem of long-standing concern in the climate and NWP communities — the systematic moist bias in the UTLS in coarse-resolution models — and provides a physically grounded mechanistic explanation. The result that gravity wave breaking dominates cross-tropopause transport at cloud-resolving scales, and that convective parameterizations artificially enhance ice sublimation, is directly relevant to GCM development. With 15 citations it has had moderate uptake in the stratospheric water vapour and tropical convection communities.
+
+## Related topics
+- [[nwp-system-development]]

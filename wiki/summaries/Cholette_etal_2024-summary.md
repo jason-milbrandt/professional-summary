@@ -56,3 +56,6 @@ This paper closes a loop opened by Barszcz et al. (2018): that paper identified 
 **Citation count:** ~8 (Semantic Scholar, retrieved 2026-06-06)
 
 Very recent GRL paper (2024); 8 citations in under two years is solid for a specialized NWP microphysics letter. The operational relevance is high: the paper directly addresses a known HRDPS forecast bias affecting winter precipitation across Canada, and the nCat2_HM result offers a physically principled path toward explicit precipitation-type prediction that matches or beats the incumbent diagnostic algorithm. Likely to be cited in future SIP and winter precipitation microphysics literature.
+
+## Related topics
+- [[p3-modern-extensions]]

@@ -67,3 +67,6 @@ Milbrandt is the fourth of fifteen authors. His primary contribution was providi
 **Citation count:** ~16 (Semantic Scholar, retrieved 2026-06-06)
 
 The paper has a modest citation count consistent with its specialized scope (a single case study using Canadian operational models in an aviation-safety context). It is cited in subsequent HIWC/HAIC-related model evaluation studies and in papers evaluating NWP model cloud microphysics using CloudSat and in situ data. The multi-instrument evaluation framework described is a methodological contribution that has been adapted in similar regional model evaluation studies ⚠ verify.
+
+## Related topics
+- [[nwp-system-development]]

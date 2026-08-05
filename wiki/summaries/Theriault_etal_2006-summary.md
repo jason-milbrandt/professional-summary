@@ -55,3 +55,6 @@ This paper is directly rooted in Milbrandt's microphysics scheme development: th
 With 65 citations, this paper has had solid impact in the winter precipitation community. It is frequently cited in studies of freezing rain, ice pellet formation, and winter storm microphysics, and contributed to a line of work by Thériault and collaborators on winter precipitation processes. The semimelted particle framework introduced here ⚠ verify influenced subsequent operational and research approaches to winter precipitation prediction ⚠ verify.
 
 ---
+
+## Related topics
+- [[winter-precipitation-type]]

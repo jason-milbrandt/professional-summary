@@ -54,3 +54,6 @@ Milbrandt's role was writing review and editing only. The subject matter — cli
 **Citation count:** ~7 (Semantic Scholar, retrieved 2026-06-06)
 
 With 7 citations since 2022, the paper has seen modest uptake. GCM cloud evaluation papers have a fairly specialized audience; this contribution is relevant primarily to the CanESM development community and climate modelers working on Canadian ESM configurations.
+
+## Related topics
+- [[fog-visibility]]

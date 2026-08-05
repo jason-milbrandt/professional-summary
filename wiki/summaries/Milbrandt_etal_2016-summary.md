@@ -64,3 +64,7 @@ This paper documents the operational deployment of the MY2 scheme — Milbrandt'
 **Citation count:** ~152 (Semantic Scholar, retrieved 2026-06-06)
 
 This is among Milbrandt's most-cited papers, with 152 citations reflecting its role as the primary reference for the HRDPS system. As a system description paper, it is cited by a broad range of studies that use HRDPS output or the GEM/MY2 modeling framework for forecasting and research applications — from convective storm studies to winter precipitation and aerosol–cloud interaction work (e.g., Jouan and Milbrandt 2019). The paper is also cited in international comparisons of kilometer-scale NWP systems, establishing ECCC's contribution to the global movement toward convection-permitting operational NWP ⚠ verify.
+
+## Related topics
+- [[operational-nwp-scale-adaptation]]
+- [[milbrandt-yau-scheme]]

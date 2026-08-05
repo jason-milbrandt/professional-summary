@@ -84,3 +84,6 @@ This paper is Milbrandt's earliest published work and predates his primary resea
 - AMS abstract page: https://journals.ametsoc.org/view/journals/mwre/129/6/1520-0493_2001_129_1419_ammsot_2.0.co_2.xml
 
 This paper is primarily a case study of the 1996 Saguenay flood event, lying outside the cloud microphysics specialty for which Milbrandt is best known. Its expected impact is modest compared to his later microphysics scheme papers, as it targets the mesoscale dynamical meteorology community rather than the parameterization development community ⚠ verify. The paper's principal significance in the broader literature is as a detailed post-case analysis of one of Canada's most catastrophic weather events, with methodological contributions in the application of piecewise PV inversion diagnostics and factor separation techniques to orographic precipitation. Within Milbrandt's career arc, it documents the modeling environment (MC2, Kong–Yau microphysics) and the collaborator (M. K. Yau) that directly motivated and supported his subsequent microphysics scheme development.
+
+## Related topics
+- [[applied-mesoscale-nwp]]

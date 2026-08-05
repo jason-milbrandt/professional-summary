@@ -53,3 +53,6 @@ Milbrandt co-contributed to the conceptualization and methodology of this study.
 **Citation count:** ~50 (Semantic Scholar, retrieved 2026-06-06)
 
 This is a well-cited short letter for its age (published late 2022), reflecting the community's recognition that subgrid mixed-phase cloud structure is an outstanding problem in NWP and climate modeling. The paper's framing of "genuine" vs. "conditional" mixed-phase and its power-law scale statistics have been taken up in subsequent discussions of microphysics scheme development and cloud-fraction parameterization. The companion paper Korolev et al. (2020) ⚠ verify laid observational groundwork that this study extends to the statistical characterization of spatial scales.
+
+## Related topics
+- [[sip-hiwc-mixed-phase]]

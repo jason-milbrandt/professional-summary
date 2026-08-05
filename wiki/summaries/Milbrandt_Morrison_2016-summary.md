@@ -58,3 +58,6 @@ Part III is a direct and natural continuation of the P3 series: Milbrandt and Mo
 **Citation count:** ~131 (Semantic Scholar, retrieved 2026-06-06)
 
 Part III has 131 citations — roughly one-quarter of Part I's count, reflecting its role as a more specialized technical extension rather than the foundational paper. It is nonetheless a key reference for any implementation of P3 with more than one ice category, which has become the recommended configuration for operational and research NWP. The paper is cited in the literature on multi-category microphysics benchmarking and in studies evaluating P3 in WRF and other models. Its principal scientific legacy is establishing the multi-free-category paradigm and the specific algorithmic design choices (destination category selection, inter-category collection, merging) that subsequent implementations build on. ⚠ verify downstream citations specifically crediting the Part III multi-category extension.
+
+## Related topics
+- [[p3-scheme]]

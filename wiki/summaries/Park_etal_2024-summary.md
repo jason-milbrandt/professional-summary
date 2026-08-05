@@ -53,3 +53,6 @@ Milbrandt's contribution here is primarily as the originator of the predicted-de
 **Citation count:** ~4 (Semantic Scholar, retrieved 2026-06-06)
 
 Published in September 2024 and thus very recent. The paper is novel in combining predicted graupel density with the widely-used WRF+WDM6 combination and in using ICE-POP 2018 observational data for validation. Its uptake will grow as groups evaluating WDM6 and related schemes for winter precipitation encounter its results.
+
+## Related topics
+- [[precipitation-type-prediction]]

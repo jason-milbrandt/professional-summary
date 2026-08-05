@@ -54,3 +54,6 @@ This paper sits at the intersection of two of Milbrandt's research threads: the 
 **Citation count:** ~12 (Semantic Scholar, retrieved 2026-06-06)
 
 The paper has been cited primarily in the precipitation phase transitions and complex terrain meteorology literature. It is cited in follow-on studies of valley flow dynamics in mountainous regions and in work on forecasting rain–snow boundaries. The connection to the Vancouver 2010 Winter Olympics case gives it applied relevance to winter weather forecasting in complex terrain.
+
+## Related topics
+- [[process-studies]]

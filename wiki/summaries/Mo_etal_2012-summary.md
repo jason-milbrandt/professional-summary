@@ -55,3 +55,6 @@ Milbrandt's connection to this paper is through the MY2 microphysics scheme (Mil
 **Citation count:** ~20 (Semantic Scholar, retrieved 2026-06-06)
 
 This paper has accumulated a modest citation count, primarily within the mountain meteorology and orographic cloud community. It is the main reference for mid-mountain cloud phenomenology at Whistler and for the "Harvey's Cloud" mechanism. The conceptual framework for downslope-capping of upslope orographic clouds has potential relevance to similar topographic settings globally. The paper's documentation of the SNOW-V10 observational network and NWP support system also makes it a reference for operational meteorology projects involving major outdoor events in complex terrain. ⚠ verify any specific follow-on studies or operational implementation of the conceptual model.
+
+## Related topics
+- [[olympics-wwrp-nowcasting]]

@@ -55,3 +55,6 @@ Milbrandt's connection to this paper is through the MY bulk microphysics scheme:
 The paper has been cited primarily in winter precipitation and mountain meteorology literature, particularly studies of diabatic cooling effects on rain–snow transitions over complex terrain. Its context as part of the widely-cited SNOW-V10 publication cluster (many papers in that set have higher individual citation counts) makes it an important component of a well-known collective contribution to winter Olympics forecasting science.
 
 ---
+
+## Related topics
+- [[olympics-wwrp-nowcasting]]

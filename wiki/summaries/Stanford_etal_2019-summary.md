@@ -53,3 +53,6 @@ Milbrandt contributed to this paper as the co-developer of the P3 microphysics s
 **Citation count:** ~19 (Semantic Scholar, retrieved 2026-06-06)
 
 The paper occupies a niche at the intersection of stochastic physics parameterization and ice microphysics — an active area in climate and weather modelling. With 19 citations it has had moderate uptake. Its core finding — that ice particle m-D variability creates cloud radiative uncertainty independent of IWP — is directly relevant to GCM cloud-climate feedback studies and to the growing use of stochastic physics in NWP systems.
+
+## Related topics
+- [[scheme-intercomparisons]]

@@ -52,3 +52,6 @@ Milbrandt is the fourth (and last) author on this paper. His primary contributio
 **Citation count:** ~17 (Semantic Scholar, retrieved 2026-06-06)
 
 The paper is a niche technical contribution addressing a specific numerical issue in multimoment microphysics advection. The relatively modest citation count reflects its specialized scope. Its impact is indirect: SFVT was incorporated into the P3 scheme development pathway and is directly relevant to any multimoment scheme seeking to improve computational efficiency. The paper is cited in subsequent P3 and multi-moment scheme development work.
+
+## Related topics
+- [[scheme-intercomparisons]]

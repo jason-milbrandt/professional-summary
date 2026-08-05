@@ -71,3 +71,8 @@ Several threads here feed directly into Milbrandt's later work. The observation 
 **Citation count:** Part III ~62, Part IV ~84 (Semantic Scholar, retrieved 2026-06-06)
 
 The two 2006 papers are cited considerably less than the foundational Parts I and II (which together exceed 1,200 citations), consistent with their role as the application and evaluation papers of the series rather than the theory papers. Part IV is the more-cited of the two, reflecting the broad practical relevance of its central conclusion — that the one- to two-moment jump yields the largest skill gain and that a diagnostic-$\alpha$ two-moment scheme captures most of the three-moment benefit at lower cost — a result frequently invoked to justify the choice of two-moment schemes in operational and research NWP ⚠ verify. Part III holds a more specialized niche as the first 3D cloud-resolving simulation with a three-moment bulk scheme and as the origin of the $N_h^*$/$R_h^*$ hail-size diagnostics, cited particularly in the hail-modeling and bulk-scheme-verification literature. Together the pair documents the real-world behavior of the MY scheme that was subsequently implemented in community models including WRF and GEM ⚠ verify.
+
+## Related topics
+- [[hail-diagnostics]]
+- [[scheme-complexity-cost-benefit]]
+- [[milbrandt-yau-scheme]]

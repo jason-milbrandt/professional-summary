@@ -55,3 +55,6 @@ Milbrandt co-conceptualized and co-designed this study, which uses his P3 microp
 **Citation count:** ~32 (Semantic Scholar, retrieved 2026-06-06)
 
 With 32 citations in two years, this paper has gained meaningful uptake in the cloud microphysics community, particularly among researchers working on secondary ice production, high-IWC cloud hazards, and tropical convection simulation. The study's direct connection to aviation safety hazards (HAIC-HIWC campaign context) broadens its audience beyond academic researchers to applied NWP and aviation safety communities.
+
+## Related topics
+- [[sip-hiwc-mixed-phase]]

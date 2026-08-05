@@ -53,3 +53,6 @@ Milbrandt is the 3rd author on this paper. As the co-developer of both the MY2 s
 **Citation count:** ~14 (Semantic Scholar, retrieved 2026-06-06)
 
 This is a moderately cited study within the polarimetric microphysics evaluation literature. The 14 citations reflect its specialized audience (researchers evaluating BMPs using polarimetric observational constraints) and the niche intersection of supercell simulation, scheme intercomparison, and radar forward modeling. The identification of specific P3 scheme limiters ($\Lambda_{r,min}$, $D_{ni}$) has practical implications for P3 developers and users running supercell simulations with WRF.
+
+## Related topics
+- [[scheme-intercomparisons]]

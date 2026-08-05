@@ -55,3 +55,6 @@ Milbrandt is listed as one of 21 co-authors, all from ECCC/RPN. His contribution
 **Citation count:** ~3 (Semantic Scholar, retrieved 2026-06-06)
 
 As a review article in Atmosphere-Ocean, this paper is primarily a reference document for the Canadian NWP community and meteorological historians. Its low citation count reflects its niche audience — Canadian NWP practitioners and atmospheric science historians — rather than the broad impact of the science it reviews. The primary value of this paper for Milbrandt's professional record is its documentation of his schemes' (MY2 and P3) roles in Canadian operational NWP.
+
+## Related topics
+- [[nwp-system-development]]

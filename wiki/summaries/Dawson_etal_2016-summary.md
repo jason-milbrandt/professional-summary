@@ -54,3 +54,6 @@ Milbrandt is the developer of the Milbrandt–Yau multimoment scheme, which is t
 **Citation count:** ~20 (Semantic Scholar, retrieved 2026-06-06)
 
 With 20 citations since 2016, the paper has had solid uptake in the storm dynamics and NWP microphysics communities. It is one of the most thorough analyses of the mechanism by which multimoment microphysics improves tornado simulation, and the pressure buoyancy finding is a notable contribution to tornado dynamics understanding. The companion Part I paper (Dawson et al. 2015) likely has higher citation counts ⚠ verify.
+
+## Related topics
+- [[scheme-intercomparisons]]

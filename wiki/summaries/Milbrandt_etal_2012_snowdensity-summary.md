@@ -54,3 +54,6 @@ This paper is the implementation companion to the 1D snow-melting sensitivity st
 **Citation count:** ~26 (Semantic Scholar, retrieved 2026-06-06)
 
 As an applied operational-NWP paper focused on a specific forecast product (SLR), this paper has modest citation count compared to the scheme-description papers, consistent with its specialized audience ⚠ verify. Its significance is primarily: (a) as the documentation of important MY2 snow-category updates that affected all subsequent uses of the scheme in GEM ⚠ verify; (b) as the introduction of the explicit SLR prediction technique, which may have influenced subsequent snow-forecasting tool development ⚠ verify; and (c) as evidence of Milbrandt's growing engagement with operational NWP applications beyond basic scheme development.
+
+## Related topics
+- [[ice-phase-modernization]]

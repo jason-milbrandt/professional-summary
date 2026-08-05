@@ -55,3 +55,6 @@ This paper closes the IMPROVE-2 two-part series and delivers three advances for 
 **Citation count:** ~52 (Semantic Scholar, retrieved 2026-06-06)
 
 Cited comparably to Part I (~40 citations), this paper contributes to the IMPROVE-2 model-intercomparison literature and to the broader literature on the importance of BMS formulation choices for orographic precipitation ⚠ verify. The process-level explanation of the leeside overprediction mechanism (latent heat effect + instantaneous melting) is the most novel finding and is likely the basis for its citations in snow-parameterization and orographic-QPF studies ⚠ verify. The result that scheme-identity differences outweigh moment-count differences is a practically important finding for operational NWP modellers choosing or calibrating schemes ⚠ verify.
+
+## Related topics
+- [[observational-validation-sedimentation]]

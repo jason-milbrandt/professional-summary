@@ -54,3 +54,6 @@ Milbrandt's contribution to this paper was through the NWP infrastructure: the 1
 The paper has garnered a modest but steady citation record as a reference for convective initiation field campaigns in Canada and for high-resolution NWP over complex terrain. It is primarily cited in Canadian severe weather and mesoscale meteorology literature. The planned follow-on full-scale UNSTABLE experiment was conducted in 2013 ⚠ verify.
 
 ---
+
+## Related topics
+- [[olympics-wwrp-nowcasting]]

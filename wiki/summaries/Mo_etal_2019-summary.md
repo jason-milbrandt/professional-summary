@@ -55,3 +55,6 @@ This paper is directly relevant to Milbrandt's research program in two ways. Fir
 **Citation count:** ~31 (Semantic Scholar, retrieved 2026-06-06)
 
 This paper has gathered a solid citation count for a 2019 WAF paper, reflecting its relevance to the atmospheric river and orographic precipitation communities. It is a useful reference for groups comparing prognostic vs. diagnostic precipitation schemes in NWP, and for the operational forecasting community dealing with QPF in complex terrain along the North American west coast. Its documentation of the MY2 spillover bias and P3 improvement is cited in the McTaggart-Cowan et al. (2019) physics modernization paper as a justification for the MY2→P3 upgrade in the HRDPS. ⚠ verify any additional downstream citations specifically attributing the P3 operational adoption to this paper's findings.
+
+## Related topics
+- [[nwp-system-development]]

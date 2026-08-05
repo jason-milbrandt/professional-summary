@@ -54,3 +54,6 @@ Milbrandt is the fifth of seven authors. His primary contribution was providing 
 **Citation count:** ~38 (Semantic Scholar, retrieved 2026-06-06)
 
 This paper has garnered moderate citations (~38) reflecting its focused contribution to an active subfield. It is cited in subsequent three-moment scheme development work, P3-related studies, and papers addressing rain DSD parameterization more broadly. The proof-of-concept result — showing >95% agreement with SBM using the full three-moment scheme — is a strong quantitative benchmark that has influenced subsequent bulk rain microphysics development.
+
+## Related topics
+- [[scheme-intercomparisons]]

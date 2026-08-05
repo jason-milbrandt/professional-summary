@@ -53,3 +53,6 @@ This paper is a direct extension of the P3 scheme (Morrison and Milbrandt 2015; 
 **Citation count:** ~28 (Semantic Scholar, retrieved 2026-06-06)
 
 A well-cited scheme-development paper for a specialized audience. The 28 citations reflect genuine uptake in the mixed-phase microphysics community — a niche area where this paper represents the state of the art for bulk-scheme treatment of partially melted ice. The work directly addresses the limitation noted in Barszcz et al. (2018) and the long-standing problem of ice pellet simulation in bulk schemes, and it forms the foundation for the subsequent operational implementation papers in this series ⚠ verify uptake in NWP systems beyond the Cholette follow-on work.
+
+## Related topics
+- [[p3-modern-extensions]]

@@ -60,3 +60,6 @@ This paper is a direct continuation of the P3 development line initiated in Morr
 **Citation count:** ~46 (Semantic Scholar, retrieved 2026-06-06)
 
 This paper represents the primary reference for the triple-moment ice capability in P3. With 46 citations in ~5 years, it has been well-received within the microphysics community. The three-moment ice formulation has been incorporated into the operational ECCC P3 code (v5 ⚠ verify exact version adoption) and is the foundation for subsequent P3 developments including the merged triple-moment ice + predicted liquid fraction version described in Cholette et al. (2023). The paper's treatment of the advected variable for three-moment schemes (following Morrison et al. 2016) has also provided practical guidance for other BMS developers implementing triple-moment approaches.
+
+## Related topics
+- [[p3-modern-extensions]]

@@ -91,3 +91,7 @@ The MY scheme remains in use operationally in ECCC's GEM model ⚠ verify, makin
 Together, the two papers have accumulated over 1,200 citations, placing them among the most-cited works in bulk cloud microphysics parameterization from the 2000s ⚠ verify. The combined citation record reflects widespread adoption and evaluation of the MY scheme across the NWP and cloud physics communities. Part I is the more heavily cited of the two, likely because its analysis of shape-parameter sensitivity and size-sorting errors has value as a standalone reference independent of the specific MY scheme implementation.
 
 Key downstream impacts include Dawson et al. (2010), who showed that the MY scheme produced substantially more realistic cold-pool structure in tornadic thunderstorm simulations relative to single-moment schemes; Morrison and Milbrandt (2011), who used the MY framework as a benchmark in a comparative evaluation of two-moment schemes for supercell simulations; and the P3 scheme (Morrison and Milbrandt 2015), which cites the limitations of the MY fixed-category approach as direct motivation ⚠ verify. The three-moment closure described in Part II remains the only published bulk scheme to fully prognose $\alpha$ for all precipitating categories, and the scheme continues to be cited as a methodological reference for radar-reflectivity-based moment formulations ⚠ verify.
+
+## Related topics
+- [[spectral-shape-parameter]]
+- [[milbrandt-yau-scheme]]

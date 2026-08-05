@@ -19,3 +19,7 @@ Created `topics/p3-scheme.md`, `topics/ice-phase-modernization.md`, and `topics/
 ## [2026-08-05] topic-pages | Remaining 16 topic pages (batch)
 
 Built the remaining 10 Tier 1/2 and 6 Tier 3 topic pages, completing the 19-page seed set from professional-summary.md sections 4.1-4.12 and 8.1-8.7. Added a `*Topic page: [[...]]*` pointer under each corresponding section heading in professional-summary.md. Cleared all `(planned)` markers from wiki/index.md now that every listed topic page exists.
+
+## [2026-08-05] retrofit | Related-topics footers added to all 68 summaries
+
+Appended a `## Related topics` footer with [[wiki-links]] to every summary file, inverting the topic-to-source mapping built while writing the 19 topic pages. Verified zero unresolved [[links]] across the repo (166 files).

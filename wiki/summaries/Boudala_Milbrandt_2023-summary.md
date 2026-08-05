@@ -53,3 +53,6 @@ Milbrandt's role was writing review and editing only. This paper is tangentially
 **Citation count:** ~1 (Semantic Scholar, retrieved 2026-06-06)
 
 Very recent paper (2023) with only 1 citation to date. The work addresses a practical problem in cold-climate precipitation measurement and is part of Boudala's ongoing observational research program at ECCC. Uptake is expected to be gradual given the specialized, site-specific nature of the findings.
+
+## Related topics
+- [[fog-visibility]]

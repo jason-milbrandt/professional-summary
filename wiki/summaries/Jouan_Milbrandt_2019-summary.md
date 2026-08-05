@@ -61,3 +61,6 @@ This paper sits at the intersection of two major threads in Milbrandt's research
 **Citation count:** ~11 (Semantic Scholar, retrieved 2026-06-06)
 
 A specialized study on aerosol–cloud–precipitation interactions with a focus on microphysics parameterization sensitivity. The citation count of 11 is modest, reflecting the paper's somewhat niche focus at the intersection of aerosol effects and bulk microphysics scheme design. The paper's primary significance lies in providing scientific support for the transition from category-based microphysics to property-based approaches (P3), a direction that has since gained traction in the modeling community ⚠ verify. The work also has operational relevance as context for the HRDPS system described in Milbrandt et al. (2016).
+
+## Related topics
+- [[process-studies]]

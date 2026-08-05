@@ -57,3 +57,6 @@ This paper represents a direct application and evaluation of the liquid fraction
 **Citation count:** 0 (Semantic Scholar, retrieved 2026-06-06)
 
 The paper was published in November 2025 and is too recent to have accumulated citations. It extends a productive line of P3 LF evaluation work that has collectively garnered over 100 citations across the Cholette et al. (2019, 2020, 2023, 2024) series. The use of ICE-POP 2018 field campaign data and the novelty of comparing 3D NWP simulations with explicit mixed-phase particles against retrieved density and liquid fraction observations positions this paper as a key reference for wet snow parameterization evaluation.
+
+## Related topics
+- [[p3-modern-extensions]]

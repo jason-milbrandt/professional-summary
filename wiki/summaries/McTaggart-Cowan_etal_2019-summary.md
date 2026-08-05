@@ -55,3 +55,7 @@ Milbrandt's contribution to this paper is as the developer of both the MY2 schem
 **Citation count:** ~74 (Semantic Scholar, retrieved 2026-06-06)
 
 This paper has attracted substantial citations as a comprehensive reference for the 2019 Canadian NWP physics upgrade. It is a standard citation for work involving GEM model configurations (GDPS, RDPS, HRDPS, REPS) and serves as the primary documentation for the physics suite adopted by CMC in mid-2019. The 74-citation count reflects its value to the broad NWP community as both a technical reference and a template for documenting multi-scheme physics modernization efforts. ⚠ verify specific downstream studies citing this for the P3 microphysics component.
+
+## Related topics
+- [[nwp-system-development]]
+- [[p3-scheme]]

@@ -69,3 +69,6 @@ This paper is the most recent in the P3 development series and represents the sy
 **Citation count:** ~1 (Semantic Scholar, retrieved 2026-06-06)
 
 This paper was published in early 2025 and has just one citation at time of retrieval, consistent with its very recent publication date. As the capstone paper describing the current-generation P3 scheme's hail capabilities, it is expected to become a key reference for the atmospheric modeling community as the scheme continues to be adopted and evaluated. The paper's explicit treatment of computational cost (SFVT advection feasibility) strengthens its case for operational adoption.
+
+## Related topics
+- [[p3-modern-extensions]]

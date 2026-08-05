@@ -53,3 +53,6 @@ Milbrandt is the ninth of sixteen co-authors on this invited review. His contrib
 **Citation count:** ~378 (Semantic Scholar, retrieved 2026-06-06)
 
 This is one of the most widely cited recent papers on cloud microphysics parameterization, reflecting its status as a community-consensus review and forward-looking manifesto. Its high citation count (~378 as of mid-2026) reflects both the breadth of the topic and the authority of the authorship team, which spans bulk schemes, bin schemes, Lagrangian methods, observations, and statistical modeling. The paper is widely assigned in graduate courses and cited in proposals and papers across weather, climate, and cloud physics communities ⚠ verify.
+
+## Related topics
+- [[scheme-intercomparisons]]

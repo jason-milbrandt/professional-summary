@@ -54,3 +54,6 @@ This paper is a key step in Milbrandt's ongoing project of making P3 the unified
 **Citation count:** ~14 (Semantic Scholar, retrieved 2026-06-06)
 
 The citation count is modest but the paper's operational significance is high: it established the feasibility of using P3 in coarse-resolution NWP and laid the groundwork for eventual replacement of Sundqvist across ECCC's suite of operational prediction systems. Citations are primarily from groups working on scale-adaptive microphysics and ECCC NWP development.
+
+## Related topics
+- [[operational-nwp-scale-adaptation]]

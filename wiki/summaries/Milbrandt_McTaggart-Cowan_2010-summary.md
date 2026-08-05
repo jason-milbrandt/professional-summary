@@ -58,3 +58,7 @@ This paper is a theoretical companion to the MY Part I sedimentation study (2005
 **Citation count:** ~110 (Semantic Scholar, retrieved 2026-06-06)
 
 With 110 citations, this is the most-cited of Milbrandt's non-foundational-MY-series papers processed so far, reflecting its value as both a diagnostic tool (the comprehensive moment-error ranking) and as a practical resource (the two proposed fixes are directly applicable to existing BMSs) ⚠ verify (characterization of citing literature). The paper is cited in the microphysics parameterization literature in contexts including scheme design and the theoretical analysis of sedimentation behavior ⚠ verify. The proposed diagnostic-$m$ generalization and the diagnostic-$V$ approach are tools that bulk-scheme developers working with two-moment configurations can apply without significant code restructuring ⚠ verify (extent of uptake).
+
+## Related topics
+- [[spectral-shape-parameter]]
+- [[observational-validation-sedimentation]]

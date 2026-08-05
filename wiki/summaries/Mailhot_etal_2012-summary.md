@@ -54,3 +54,6 @@ Milbrandt's primary contribution was providing the MY2 microphysics scheme that 
 **Citation count:** ~47 (Semantic Scholar, retrieved 2026-06-06)
 
 This paper has been cited as a reference for high-resolution NWP evaluation in complex winter terrain and as documentation of the MY2 scheme's first quasi-operational implementation at 1-km scale. It is part of a broader SNOW-V10 (Science of Nowcasting Olympic Weather for Vancouver 2010) collection of papers in the same issue of Pure and Applied Geophysics. The Olympic experience contributed directly to the upgrade of Canada's operational 2.5-km LAM system ⚠ verify and to FROST-2014 planning for the Sochi Winter Olympics.
+
+## Related topics
+- [[olympics-wwrp-nowcasting]]

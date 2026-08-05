@@ -51,3 +51,6 @@ Milbrandt is the 2nd author of this 2-author paper. His role was to run the MC2 
 **Citation count:** ~108 (Semantic Scholar, retrieved 2026-06-06)
 
 This is a well-cited paper in the fog forecasting and cloud microphysics literature, reflecting widespread interest in improved visibility parameterizations for NWP applications. It is regularly cited in fog modelling and observational studies, particularly those evaluating the role of $N_d$ in visibility predictions. The ~108 citations indicate the paper became an important reference for the community working on fog and low-visibility forecasting. ⚠ verify specific citing papers
+
+## Related topics
+- [[fog-visibility]]

@@ -54,3 +54,6 @@ Milbrandt is the 8th of 21 co-authors, representing ECCC's contribution to FROST
 **Citation count:** ~19 (Semantic Scholar, retrieved 2026-06-06)
 
 This is a moderately cited project overview paper. The 19 citations reflect its specialized audience within the nowcasting and high-resolution NWP communities interested in winter Olympic meteorology and complex terrain forecasting. As a BAMS article, it serves as the primary project documentation reference and is cited by follow-on work describing the ICE-POP 2018 project (PyeongChang Winter Olympics) and related nowcasting verification studies.
+
+## Related topics
+- [[olympics-wwrp-nowcasting]]

@@ -57,3 +57,6 @@ Part IV completes the four-paper foundation of Milbrandt's research program and 
 **Citation count:** ~84 (Semantic Scholar, retrieved 2026-06-06)
 
 Part IV is the most-cited of the two 2006 papers, reflecting the wide practical relevance of its core message — that the jump from one- to two-moment schemes yields the largest improvement, and that a diagnostic-$\alpha$ two-moment scheme captures most of the benefit of a full three-moment scheme at lower cost. This finding is frequently invoked in the microphysics literature to justify the choice of two-moment schemes for operational and research NWP, and the paper is a standard citation in comparative studies of bulk-scheme complexity for convective storms ⚠ verify. Together with Part III it documents the real-world behavior of the MY scheme that was subsequently implemented in community models including WRF and GEM ⚠ verify.
+
+## Related topics
+- [[scheme-complexity-cost-benefit]]

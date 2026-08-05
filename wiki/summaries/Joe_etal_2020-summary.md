@@ -54,3 +54,6 @@ Milbrandt is listed as an ECCC co-author on this project overview. His primary c
 **Citation count:** Not retrieved — rate-limited during processing (retrieved 2026-06-06); citation count pending
 
 As an overview paper for a multi-year Arctic observational project, this paper serves as the primary reference for the CAWS Iqaluit site. It will be cited by subsequent CAWS studies on instrument performance, data quality, NWP validation, satellite validation, and Arctic weather phenomena. The CAWS project dataset is expected to be valuable to the broader Arctic observation community aligned with YOPP and SAON.
+
+## Related topics
+- [[olympics-wwrp-nowcasting]]

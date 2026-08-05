@@ -56,3 +56,7 @@ This paper is the theoretical foundation of the Milbrandt–Yau (MY) multimoment
 **Citation count:** ~665 (Semantic Scholar, retrieved 2026-05-25)
 
 This paper has been highly cited for a cloud microphysics parameterization paper, reflecting the widespread adoption of the Milbrandt–Yau scheme and its influence on NWP model development. Together with Part II, it established the scientific basis for predicting the radar reflectivity as a third moment in bulk schemes — a design choice later adopted or adapted in several operational and research models ⚠ verify. It is routinely referenced in evaluations of bulk microphysics schemes and in the development of successor schemes (including the P3 scheme by Morrison and Milbrandt 2015) ⚠ verify. The paper's analysis of size-sorting errors and shape-parameter sensitivity remains a standard reference for the bulk microphysics community ⚠ verify.
+
+## Related topics
+- [[spectral-shape-parameter]]
+- [[milbrandt-yau-scheme]]

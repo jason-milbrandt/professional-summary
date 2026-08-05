@@ -55,3 +55,6 @@ This paper represents a new phase in Milbrandt's program: **external benchmarkin
 **Citation count:** ~210 (Semantic Scholar, retrieved 2026-06-06)
 
 With ~210 citations, this is the most-cited single paper in Milbrandt's corpus so far processed, and one of the most influential scheme-comparison papers in the bulk microphysics literature ⚠ verify. It is a standard reference in studies that compare or evaluate two-moment schemes for deep convection ⚠ verify, and the finding that graupel-vs-hail choice dominates inter-scheme differences is widely cited in the microphysics and storm-simulation literature ⚠ verify. The paper's recommendation for further observational study of ice PSDs and particle properties has influenced subsequent measurement campaigns and microphysics development efforts ⚠ verify.
+
+## Related topics
+- [[ice-phase-modernization]]

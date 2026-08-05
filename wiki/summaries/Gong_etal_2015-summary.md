@@ -55,3 +55,6 @@ Milbrandt is the 4th author. His contribution was providing the MY double-moment
 **Citation count:** ~77 (Semantic Scholar, retrieved 2026-06-06)
 
 This is a well-cited paper in the on-line (coupled) air quality modelling literature, reflecting the community's interest in aerosol–cloud–meteorology feedbacks in regional forecast models. It is part of a broader AQMEII-2 suite of papers and is frequently cited in the context of online coupled weather-chemistry model development and evaluation. ⚠ verify specific citing papers
+
+## Related topics
+- [[gem-mach-air-quality]]

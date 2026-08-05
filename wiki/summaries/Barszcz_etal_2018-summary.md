@@ -55,3 +55,6 @@ This paper is a direct operational application of the MY2 scheme (Milbrandt and 
 **Citation count:** ~17 (Semantic Scholar, retrieved 2026-06-06)
 
 A modestly cited operational NWP paper, reflecting a specialized community. The direct impact is larger than the citation count suggests: the −5°C collisional freezing threshold fix described here was implemented in operational HRDPS, improving winter precipitation-type forecasts for millions of Canadians. The paper is cited in the precipitation-type diagnosis and mixed-phase microphysics literature and contributes to ongoing efforts to evaluate and improve explicit precipitation-type prediction in kilometer-scale NWP systems.
+
+## Related topics
+- [[precipitation-type-prediction]]

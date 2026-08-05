@@ -54,3 +54,6 @@ This paper represents Milbrandt's continued work on evaluating and improving the
 **Citation count:** ~15 (Semantic Scholar, retrieved 2026-06-06)
 
 This is a smaller, specialized paper focused on a specific application: the 2010 Vancouver Olympics and precipitation phase forecasting in complex terrain. The 15 citations reflect its niche scope — it addresses a practical NWP forecasting challenge (phase transitions in mountain weather) rather than a broadly adopted scheme component. The paper has been cited in the context of precipitation phase transition modeling and cold-season NWP evaluation. The 1D modeling framework described here was subsequently used in operational settings at Environment Canada and motivates a community interest in inexpensive but physically consistent phase-transition test beds.
+
+## Related topics
+- [[ice-phase-modernization]]

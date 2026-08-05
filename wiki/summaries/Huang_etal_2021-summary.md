@@ -53,3 +53,6 @@ Milbrandt is a co-author on this paper, which uses the P3 scheme he co-developed
 **Citation count:** ~21 (Semantic Scholar, retrieved 2026-06-06)
 
 This paper contributes to the growing literature evaluating bulk microphysics schemes against HAIC-HIWC field campaign observations, a critical application area for aviation safety. It is one of a small number of papers to evaluate P3 in a tropical oceanic convection context, providing useful cross-regime performance information. The study's focus on secondary ice production as a key missing process has broader implications for tropical cloud modeling.
+
+## Related topics
+- [[sip-hiwc-mixed-phase]]
