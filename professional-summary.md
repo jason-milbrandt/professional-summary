@@ -61,21 +61,31 @@ Each advance is motivated by a concrete failure of the previous fixed assumption
 
 ### 4.1 The spectral shape parameter $\alpha$ — the conceptual seed (MY Part I, 2005a)
 
+*Topic page: [[spectral-shape-parameter]]*
+
 **Part I (2005a)** showed quantitatively that $\alpha$ controls the rate of gravitational size sorting (via the ratio of mass- to number-weighted fall speeds) and the accuracy of moment-based microphysical source terms — an incorrect $\alpha$ can produce ~700% errors in radar reflectivity and unrealistic "excessive size sorting." It established a clear scheme-skill hierarchy (three-moment > diagnosed-$\alpha$ two-moment > fixed-$\alpha=3$ > fixed-$\alpha=0$ > single-moment) and introduced a diagnostic relation $\alpha = f(D_m)$ as a low-cost way to capture much of the benefit. (~665 citations.)
 
 ### 4.2 Three-moment closure and the MY scheme (Part II, 2005b)
+
+*Topic page: [[milbrandt-yau-scheme]]*
 
 **Part II (2005b)** delivered the first complete bulk scheme to fully prognose $\alpha$ for all precipitating categories, adding a mathematically consistent tendency equation for radar reflectivity (the third moment) across all microphysical process classes. The resulting **six-category scheme with unified one-/two-/three-moment options** is the central artifact of the first half of his career and the ancestor of the operational MY2 component of ECCC's HRDPS. (~556 citations; Parts I+II together exceed 1,200 citations and are standard references for multimoment bulk microphysics.)
 
 ### 4.3 3D validation and hail diagnostics (Part III, 2006a)
 
+*Topic page: [[hail-diagnostics]]*
+
 **Part III (2006a)** produced the first-ever cloud-resolving simulation with a three-moment bulk scheme (the 14 July 2000 Pine Lake, Alberta supercell), reproducing observed storm structure (BWER, hook echo, mesocyclone). It introduced the diagnostic parameters $N_h^*\{D^*\}$ (number concentration of hail larger than $D^*$) and $R_h^*\{D^*\}$ (its surface flux) with observability thresholds, enabling a bulk scheme to report a physically meaningful **maximum hail size** rather than a misleading mean diameter. It also gave a mechanistic account of how $\alpha$ can locally *decrease* in full physics (via advection, sources/sinks, sedimentation) — behavior impossible in fixed/diagnosed-$\alpha$ schemes. (~62 citations.)
 
 ### 4.4 Cost–benefit guidance for scheme complexity (Part IV, 2006b)
 
+*Topic page: [[scheme-complexity-cost-benefit]]*
+
 **Part IV (2006b)** delivered the program's most actionable practical result via controlled sensitivity experiments (all versions of the *same* scheme): the dominant skill gain is from **one-moment → two-moment**, with a smaller incremental gain to three moments for most fields — *except maximum hail size*, which only the full three-moment scheme captures. This underpins the common operational choice of the economical two-moment configuration, and the recognized awkwardness of fixed hydrometeor categories foreshadows P3. (~84 citations.)
 
 ### 4.5 Observational validation and sedimentation theory (2008–2010)
+
+*Topic page: [[observational-validation-sedimentation]]*
 
 - **IMPROVE-2 Part I (Milbrandt et al. 2008)** — first in-situ (aircraft) validation of the MY scheme against the IMPROVE-2 orographic dataset: realistic precipitation pattern and particle sizes (confirming the multimoment thesis observationally) but overpredicted snow mass / underpredicted cloud water; notably *no* leeside overprediction, unlike MM5/Reisner-2. (~40 citations.)
 - **Sedimentation errors (Milbrandt & McTaggart-Cowan 2010)** — comprehensive ranking of bulk-scheme moment configurations; the standard two-moment ($M_0$–$M_3$, fixed $m$) configuration performs catastrophically for sedimentation; proposes generalized diagnostic-$m$ and diagnostic $V_k/V_j$ fixes applicable to *any* existing two-moment scheme. Returns to and generalizes the Part I theory. (~110 citations.)
@@ -83,11 +93,15 @@ Each advance is motivated by a concrete failure of the previous fixed assumption
 
 ### 4.6 Benchmarking and ice-phase modernization (2011–2013)
 
+*Topic page: [[ice-phase-modernization]]*
+
 - **Morrison–Milbrandt intercomparison (2011)** — idealized WRF supercell; the graupel-vs-hail choice is the dominant inter-scheme difference; drop breakup matters for the MOR cold pool; two-moment schemes do not converge as complexity increases. Most-cited paper of the early corpus. (~210 citations.) This *diagnosed* the dominant ice-phase uncertainty that the 2013 paper then *fixed*.
 - **Snow-category modernization (Milbrandt et al. 2012, two papers)** — a 1D snow-melting study (PAAG / "snowmelting", same paper, ~15 citations) identifying the inability of bulk schemes to represent partial melting as a fundamental limitation and proposing a 1D model as a forecaster tool; and the **snow-to-liquid ratio (SLR)** paper (~26 citations) delivering the first explicit SLR prediction from a bulk scheme via new MY2 snow updates ($d_s \approx 2$, faster $V$–$D$, constrained $\lambda_{s,\min}$, reduced capacitance). The SLR feature was deployed operationally in the ECCC experimental system for the **2010 Vancouver Winter Olympics** (Mailhot et al. 2012).
 - **Prognostic graupel density (Milbrandt & Morrison 2013)** — adds $B_g = q_g/\rho_g$ as a new prognostic variable, giving density-dependent fall speeds via a Re–$X$ formulation, so a single rimed-ice category can span lightly rimed snow to hail-like ice. Explicitly framed as "part of a paradigm shift... toward adding physical degrees of freedom for a given hydrometeor type." The critical conceptual bridge to P3; $B_g$ is the direct ancestor of P3's rime-volume variable $B_{rim}$. (~62 citations.)
 
 ### 4.7 The P3 scheme (2015–2016, Parts I–III)
+
+*Topic page: [[p3-scheme]]*
 
 The **Predicted Particle Properties (P3) scheme** is Milbrandt's most impactful contribution. Combined summary: `Morrison_Milbrandt_2015_2016-P3-summary.md`.
 
@@ -96,6 +110,8 @@ The **Predicted Particle Properties (P3) scheme** is Milbrandt's most impactful 
 - **Part III (Milbrandt & Morrison 2016; ~131 citations)** — Milbrandt first-authored. Extends P3 to $n_{Cat}$ user-specified free categories, eliminating "property dilution" (the blending of distinct ice populations forced into one category). New algorithmic elements: destination-category selection ($\Delta D_{init}$ threshold), inter-category collection (lookup-table double integral), and category merging. Convergence at $n_{Cat} \approx 3$–4 (strong forcing) or 2 (weak); rime splintering requires $n_{Cat} \geq 2$ to be beneficial. The **first multiple-free-category bulk microphysics scheme**.
 
 ### 4.8 Modern P3 extensions: moments, phase, and hail (2019–2025)
+
+*Topic page: [[p3-modern-extensions]]*
 
 - **Triple-moment ice (Milbrandt et al. 2021; ~46 citations, Tier 1 lead)** — adds a fifth prognostic variable per ice category, the sixth PSD moment $Z_{i,tot}$ (analogous to reflectivity), letting the shape parameter $\mu$ vary independently of mean size. This removes the artificial 2-mm mean-size limiter and controls size sorting *physically*, producing larger, more realistic mean and maximum hail and reflectivity in idealized CM1 supercell simulations. Applies the three-moment concept from MY05 to the free-category P3 framework. Recommends advecting $Z_{advect}=Z_{i,tot}/Q_{i,tot}$ (per Morrison et al. 2016) to preserve PSD parameters during transport.
 - **Predicted liquid fraction (Cholette et al. 2019, Tier 2)** — adds $q_{i,liq}$ (bulk liquid fraction $F_{i,liq}$) so P3 can represent mixed-phase particles explicitly, enabling **wet snow** and **ice pellets** that no standard bulk scheme produces. Milbrandt co-supervised Cholette (PhD) and provided the P3 framework. First of a four-paper Cholette series (2019, 2023, 2024, 2025).
@@ -106,21 +122,29 @@ The **Predicted Particle Properties (P3) scheme** is Milbrandt's most impactful 
 
 ### 4.9 Operational NWP and scale adaptation (2014–2020)
 
+*Topic page: [[operational-nwp-scale-adaptation]]*
+
 - **HRDPS system paper (Milbrandt et al. 2016; ~152 citations, Tier 1 lead)** — the definitive description and verification of Canada's pan-national 2.5-km operational NWP system (HRDPS, operational November 2014), built on GEM with MY2 microphysics. Documents improved skill over the 10-km RDPS, the hydrometeor "hot start," a moist bias traceable to MY2 (excessive snow sublimation), the −5°C freezing-rain fix to MY2, and the planned transition to P3. The primary reference for the HRDPS-MY2 configuration.
 - **Scale-adaptive two-moment microphysics (Chosson et al. 2014, Tier 2; ~29 citations)** — a subgrid cloud/precipitation fraction (SCPF) parameterization plus microphysical sub-time-stepping that lets MY2 work at coarse (15-km) resolution, validated against CALIPSO/CloudSat. Milbrandt is co-developer of the target scheme.
 - **P3 for large-scale NWP (Jouan et al. 2020, Tier 2; ~14 citations)** — applies the Chosson SCPF approach to P3 in the 25-km global GEM, the first step toward replacing the decades-old Sundqvist scheme across *all* ECCC model scales with unified P3 microphysics. Milbrandt second author and senior scientist.
 
 ### 4.10 Process studies enabled by the schemes (Tier 2)
 
+*Topic page: [[process-studies]]*
+
 - **CCN sensitivity of deep convection (Jouan & Milbrandt 2019; ~11 citations)** — uses MY2 in GEM (1 km) to show a squall line's response to CCN acts not only through warm-phase effects but through ice-phase (graupel-riming) pathways; prognostic graupel density and two-moment graupel are necessary to capture it. Directly supports the case for property-based schemes (P3) over category-based ones. Milbrandt supervised and provided the expertise.
 - **Melting-snow valley flow (Thériault et al. 2015; ~12 citations)** — semi-idealized 2D WRF of the Whistler/Callaghan Valley 2010 Olympics case; melting-induced cooling is necessary and sufficient for valley-flow reversal, robust across MY2, Thompson, and bin schemes. Builds on the 1D companion Milbrandt et al. (2014). Milbrandt provided MY2 (the control scheme) and snow-melting expertise.
 
 ### 4.11 Operational precipitation-type prediction (Tier 2)
 
+*Topic page: [[precipitation-type-prediction]]*
+
 - **Freezing-rain diagnosis and fix (Barszcz et al. 2018; ~17 citations)** — identifies excessive rain–graupel collisional freezing in MY2 as the cause of HRDPS freezing-rain *under*prediction; the −5°C threshold fix was implemented operationally. Milbrandt co-supervised and provided microphysics interpretation. (Pairs with Cholette et al. 2024, which addresses the opposite *over*prediction bias.)
 - **Predicted graupel density in WDM6 (Park et al. 2024; ~4 citations)** — an independent Korean group ports the Milbrandt & Morrison (2013) density-prediction method into WRF's WDM6 scheme and validates against ICE-POP 2018. Demonstrates the broad adoptability of Milbrandt's density-prediction concept beyond his own schemes. Milbrandt is senior international co-author / originator of the method.
 
 ### 4.12 Applied mesoscale NWP — the starting point (2001)
+
+*Topic page: [[applied-mesoscale-nwp]]*
 
 **The Saguenay flood study (Milbrandt & Yau 2001)** — predating the microphysics focus, used MC2 with piecewise PV inversion and factor-separation experiments to decompose the 1996 Saguenay extreme cyclone/precipitation event (upper-level dynamics ~47%, latent heating ~41%, surface baroclinicity ~12%, orography ~24% of regional precipitation). Establishes the tools, collaborator, and applied motivation from which the microphysics program grew. (Citation count not retrieved ⚠ verify.)
 
@@ -201,6 +225,8 @@ The 38 papers below are works in which Milbrandt was a **contributing co-author*
 
 ### 8.1 Microphysics scheme intercomparisons and process studies (9 papers)
 
+*Topic page: [[scheme-intercomparisons]]*
+
 Milbrandt's MY2 and/or P3 schemes served as reference schemes in multi-scheme intercomparisons, or his schemes and expertise supported process studies led by others. This is the largest Tier 3 cluster and the clearest evidence of his schemes' role as community tools.
 
 - **Fan et al. (2017)**, *JGR Atmos.*, ~144 — MC3E squall-line cloud-resolving model intercomparison, Part I (convective updrafts); MY2 one of eight schemes.
@@ -215,6 +241,8 @@ Milbrandt's MY2 and/or P3 schemes served as reference schemes in multi-scheme in
 
 ### 8.2 Secondary ice production, HIWC, and mixed-phase cloud observations (4 papers)
 
+*Topic page: [[sip-hiwc-mixed-phase]]*
+
 Studies — largely tied to ECCC's Convair-580 aircraft and the HAIC-HIWC campaign — of secondary ice production (SIP), high ice water content, and mixed-phase cloud structure, where Milbrandt provided microphysics expertise and his schemes for the modeling components.
 
 - **Korolev et al. (2020)**, *ACP*, ~122 — environmental conditions favorable to secondary ice production; Milbrandt contributed cloud-microphysics expertise (Convair-580 campaign context ⚠ verify aircraft role).
@@ -224,6 +252,8 @@ Studies — largely tied to ECCC's Convair-580 aircraft and the HAIC-HIWC campai
 
 ### 8.3 Coupled air-quality / weather modeling — GEM-MACH (4 papers)
 
+*Topic page: [[gem-mach-air-quality]]*
+
 Milbrandt provided the MY2 (and later P3) cloud-microphysics component of ECCC's online coupled air-quality model GEM-MACH and the related AQMEII intercomparisons.
 
 - **Gong et al. (2015)**, *Atmos. Environ.*, ~77 — aerosol–cloud–meteorology interaction in fully coupled GEM-MACH; MY double-moment scheme provided.
@@ -232,6 +262,8 @@ Milbrandt provided the MY2 (and later P3) cloud-microphysics component of ECCC's
 - **Makar et al. (2021)**, *ACP*, ~26 — forest-fire aerosol–weather feedbacks; advised on integrating the aerosol indirect effect within the P3 scheme.
 
 ### 8.4 Winter Olympics and WWRP nowcasting / field projects (8 papers)
+
+*Topic page: [[olympics-wwrp-nowcasting]]*
 
 Milbrandt provided and supported the high-resolution GEM-LAM / HRDPS NWP component (using MY2 microphysics) for a series of World Weather Research Programme field projects and Olympic forecast demonstration projects.
 
@@ -246,6 +278,8 @@ Milbrandt provided and supported the high-resolution GEM-LAM / HRDPS NWP compone
 
 ### 8.5 Fog, visibility, and instrumentation (6 papers)
 
+*Topic page: [[fog-visibility]]*
+
 Collaborations (chiefly with I. Gultepe and F. Boudala) on fog, ice fog, visibility parameterization, and surface-instrument evaluation, where Milbrandt contributed NWP/GEM context, the MY scheme, or manuscript review.
 
 - **Gultepe & Milbrandt (2007)**, *Pure Appl. Geophys.*, ~108 — warm-fog microphysics + MC2 simulation (FRAM); ran the MC2 model with the MY triple-moment scheme to demonstrate a new fog-visibility parameterization.
@@ -257,6 +291,8 @@ Collaborations (chiefly with I. Gultepe and F. Boudala) on fog, ice fog, visibil
 
 ### 8.6 Operational NWP system development, modernization, and evaluation (5 papers)
 
+*Topic page: [[nwp-system-development]]*
+
 Papers documenting or evaluating ECCC's GEM/HRDPS forecast systems, where Milbrandt contributed the microphysics component (MY2 → P3) and related expertise.
 
 - **McTaggart-Cowan et al. (2019)**, *JAMES*, ~74 — modernization of atmospheric physics in Canadian NWP; documents the P3 scheme replacing MY2 in HRDPS. (Key reference for the operational MY2→P3 transition.)
@@ -266,6 +302,8 @@ Papers documenting or evaluating ECCC's GEM/HRDPS forecast systems, where Milbra
 - **Qu et al. (2020)**, *ACP*, ~15 — simulated convective moistening of the extratropical lower stratosphere; provided GEM/MY2 infrastructure and expertise.
 
 ### 8.7 Winter precipitation phase and type (2 papers)
+
+*Topic page: [[winter-precipitation-type]]*
 
 Collaborations on simulating winter precipitation type, an application directly enabled by his schemes' explicit ice-phase / liquid-fraction capabilities.
 

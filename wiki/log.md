@@ -15,3 +15,7 @@ Created `wiki/index.md` (content catalog: main page, 19 planned topic pages seed
 ## [2026-08-05] topic-pages | First three topic pages (review samples)
 
 Created `topics/p3-scheme.md`, `topics/ice-phase-modernization.md`, and `topics/sip-hiwc-mixed-phase.md` as review samples before batching the remaining 16 themes. Index updated to mark them built. Awaiting Jason's review of depth, tone, and link density.
+
+## [2026-08-05] topic-pages | Remaining 16 topic pages (batch)
+
+Built the remaining 10 Tier 1/2 and 6 Tier 3 topic pages, completing the 19-page seed set from professional-summary.md sections 4.1-4.12 and 8.1-8.7. Added a `*Topic page: [[...]]*` pointer under each corresponding section heading in professional-summary.md. Cleared all `(planned)` markers from wiki/index.md now that every listed topic page exists.

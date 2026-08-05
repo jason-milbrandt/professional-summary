@@ -16,28 +16,28 @@ Thematic pages synthesizing across papers. Seeded from `professional-summary.md`
 
 ### Tier 1/2 themes
 
-- [[spectral-shape-parameter]] — the gamma-PSD shape parameter α: size sorting, source-term errors, the scheme-skill hierarchy *(planned)*
-- [[milbrandt-yau-scheme]] — the MY multimoment scheme: three-moment closure, six categories, the operational MY2 *(planned)*
-- [[hail-diagnostics]] — 3D validation and maximum-hail-size diagnostics (N*_h, R*_h) *(planned)*
-- [[scheme-complexity-cost-benefit]] — one→two→three moments: where the skill gain actually is *(planned)*
-- [[observational-validation-sedimentation]] — IMPROVE-2 aircraft validation and the theory of sedimentation errors *(planned)*
+- [[spectral-shape-parameter]] — the gamma-PSD shape parameter α: size sorting, source-term errors, the scheme-skill hierarchy
+- [[milbrandt-yau-scheme]] — the MY multimoment scheme: three-moment closure, six categories, the operational MY2
+- [[hail-diagnostics]] — 3D validation and maximum-hail-size diagnostics (N*_h, R*_h)
+- [[scheme-complexity-cost-benefit]] — one→two→three moments: where the skill gain actually is
+- [[observational-validation-sedimentation]] — IMPROVE-2 aircraft validation and the theory of sedimentation errors
 - [[ice-phase-modernization]] — benchmarking, snow-category updates, prognostic graupel density: the bridge to P3
 - [[p3-scheme]] — the Predicted Particle Properties scheme, Parts I–III
-- [[p3-modern-extensions]] — triple-moment ice, predicted liquid fraction, SIP, combined hail capabilities *(planned)*
-- [[operational-nwp-scale-adaptation]] — HRDPS, subgrid cloud fraction, P3 for global scales *(planned)*
-- [[process-studies]] — CCN sensitivity, melting-snow valley flow: the schemes as research instruments *(planned)*
-- [[precipitation-type-prediction]] — freezing-rain diagnosis/fixes and density prediction adopted abroad *(planned)*
-- [[applied-mesoscale-nwp]] — the 1996 Saguenay flood study: the program's starting point *(planned)*
+- [[p3-modern-extensions]] — triple-moment ice, predicted liquid fraction, SIP, combined hail capabilities
+- [[operational-nwp-scale-adaptation]] — HRDPS, subgrid cloud fraction, P3 for global scales
+- [[process-studies]] — CCN sensitivity, melting-snow valley flow: the schemes as research instruments
+- [[precipitation-type-prediction]] — freezing-rain diagnosis/fixes and density prediction adopted abroad
+- [[applied-mesoscale-nwp]] — the 1996 Saguenay flood study: the program's starting point
 
 ### Tier 3 themes
 
-- [[scheme-intercomparisons]] — MY2/P3 as community reference schemes in intercomparisons and process studies *(planned)*
+- [[scheme-intercomparisons]] — MY2/P3 as community reference schemes in intercomparisons and process studies
 - [[sip-hiwc-mixed-phase]] — secondary ice production, high ice water content, mixed-phase cloud observations
-- [[gem-mach-air-quality]] — the MY2/P3 microphysics component of ECCC's coupled air-quality model *(planned)*
-- [[olympics-wwrp-nowcasting]] — Vancouver 2010, Sochi 2014, and WWRP field-project NWP support *(planned)*
-- [[fog-visibility]] — fog, ice fog, visibility parameterization, and instrumentation collaborations *(planned)*
-- [[nwp-system-development]] — GEM/HRDPS system documentation, modernization, and evaluation *(planned)*
-- [[winter-precipitation-type]] — winter precipitation phase/type studies enabled by the schemes *(planned)*
+- [[gem-mach-air-quality]] — the MY2/P3 microphysics component of ECCC's coupled air-quality model
+- [[olympics-wwrp-nowcasting]] — Vancouver 2010, Sochi 2014, and WWRP field-project NWP support
+- [[fog-visibility]] — fog, ice fog, visibility parameterization, and instrumentation collaborations
+- [[nwp-system-development]] — GEM/HRDPS system documentation, modernization, and evaluation
+- [[winter-precipitation-type]] — winter precipitation phase/type studies enabled by the schemes
 
 ## Source summaries (`summaries/`)
 
