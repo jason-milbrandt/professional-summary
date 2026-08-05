@@ -58,8 +58,8 @@ Keep all other content unchanged. Do not rewrite or reformat unrelated sections.
 ## Step 4: Commit
 
 Stage and commit the following:
-- `articles-md/` — any new markdown files
-- `summaries/` — any new summary files
+- `raw/articles-md/` — any new markdown files
+- `wiki/summaries/` — any new summary files
 - `STATUS.md`
 - `CLAUDE.md`
 

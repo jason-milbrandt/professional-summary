@@ -13,21 +13,26 @@ professional-summary/
 ├── README.md                      ← this file
 ├── CLAUDE.md                      ← instructions for the AI assistant
 ├── STATUS.md                      ← paper inventory and processing status
-├── professional-summary.md        ← aggregated synthesis of all 68 papers
-├── summaries/                     ← one structured summary per paper (68 files)
-│   └── Author_etal_YYYY-summary.md
-├── articles-md/                   ← full article text in markdown (one per PDF)
-│   └── Author_etal_YYYY.md
-└── articles-pdf/                  ← source PDFs (not committed to git)
+├── professional-summary.md        ← aggregated synthesis of all 68 papers (wiki main page)
+├── raw/                           ← immutable source layer
+│   ├── articles-md/               ← full article text in markdown (one per PDF)
+│   │   └── Author_etal_YYYY.md
+│   └── articles-pdf               ← symlink to source PDFs (not committed to git)
+└── wiki/                          ← AI-maintained knowledge layer
+    ├── index.md                   ← content catalog of all wiki pages
+    ├── log.md                     ← append-only operations log
+    ├── topics/                    ← thematic topic pages with [[wiki-links]]
+    └── summaries/                 ← one structured summary per paper (68 files)
+        └── Author_etal_YYYY-summary.md
 ```
 
 ## Key files
 
 **`professional-summary.md`** is the primary reference document. It synthesizes all 68 papers into a single narrative organized by authorship tier and research theme, and is the intended entry point for any AI session involving Milbrandt's publication record. It includes a coverage tracker and pointers to individual summary files.
 
-**`summaries/`** contains one structured summary per paper. Each file follows a standard template: full citation, author's role, overview, context and motivation, key scientific contributions, methods, results, limitations, relation to the author's research program, and citation count (from Semantic Scholar).
+**`wiki/summaries/`** contains one structured summary per paper. Each file follows a standard template: full citation, author's role, overview, context and motivation, key scientific contributions, methods, results, limitations, relation to the author's research program, and citation count (from Semantic Scholar).
 
-**`articles-md/`** contains the full text of each article converted from PDF to markdown, preserving equations, tables, and figure captions. These exist so that detailed technical content can be retrieved without re-processing the source PDFs.
+**`raw/articles-md/`** contains the full text of each article converted from PDF to markdown, preserving equations, tables, and figure captions. These exist so that detailed technical content can be retrieved without re-processing the source PDFs.
 
 **`STATUS.md`** is the processing inventory: it tracks which papers have been converted to markdown and summarized, records citation counts, and documents the file-naming conventions and any duplicate-PDF resolutions.
 

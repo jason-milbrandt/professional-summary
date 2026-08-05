@@ -23,14 +23,17 @@ This project processes scientific journal articles (PDFs) authored or co-authore
 professional-summary/
 ├── CLAUDE.md                      ← this file
 ├── STATUS.md                      ← processing status and paper inventory
-├── articles-pdf/                  ← source PDFs (do not modify)
-│   ├── 0_PDFs-published/          ← symlink to full published-papers directory
-│   └── Author_etal_YYYY.pdf
-├── articles-md/                   ← full article in markdown (one per PDF)
-│   └── Author_etal_YYYY.md
-├── summaries/                     ← structured summary per article
-│   └── Author_etal_YYYY-summary.md
-├── professional-summary.md        ← aggregated professional summary (built from summaries/)
+├── professional-summary.md        ← aggregated synthesis (the wiki's main page)
+├── raw/                           ← immutable source layer — never modify
+│   ├── articles-pdf               ← symlink to published-PDFs directory (gitignored)
+│   └── articles-md/               ← full article in markdown (one per PDF)
+│       └── Author_etal_YYYY.md
+├── wiki/                          ← AI-maintained knowledge layer
+│   ├── index.md                   ← content catalog of all wiki pages
+│   ├── log.md                     ← append-only operations log
+│   ├── topics/                    ← thematic topic pages with [[wiki-links]]
+│   └── summaries/                 ← structured summary per article
+│       └── Author_etal_YYYY-summary.md
 └── _archive_v1/                   ← prior exploratory work (ignore)
 ```
 
@@ -76,20 +79,20 @@ PDF filenames vary (some include journal abbreviations, some don't). Use a **nor
 
 | Source PDF | Markdown | Summary |
 |-----------|----------|---------|
-| `articles-pdf/Milbrandt_Yau_2005a.pdf` | `articles-md/Milbrandt_Yau_2005a.md` | `summaries/Milbrandt_Yau_2005a-summary.md` |
-| `articles-pdf/Milbrandt_Morrison_2013-grpl_density.pdf` | `articles-md/Milbrandt_Morrison_2013.md` | `summaries/Milbrandt_Morrison_2013-summary.md` |
-| `articles-pdf/Jouan_Milbrandt_JAS_2019.pdf` | `articles-md/Jouan_Milbrandt_2019.md` | `summaries/Jouan_Milbrandt_2019-summary.md` |
-| `articles-pdf/Morrison_etal_2015-P3_part2.pdf` | `articles-md/Morrison_etal_2015b.md` | `summaries/Morrison_etal_2015b-summary.md` |
-| `articles-pdf/Milbrandt_Morrison_2016-P3_part3.pdf` | `articles-md/Milbrandt_Morrison_2016.md` | `summaries/Milbrandt_Morrison_2016-summary.md` |
-| `articles-pdf/Milbrandt_etal_2016_WAF.pdf` | `articles-md/Milbrandt_etal_2016.md` | `summaries/Milbrandt_etal_2016-summary.md` |
+| `raw/articles-pdf/Milbrandt_Yau_2005a.pdf` | `raw/articles-md/Milbrandt_Yau_2005a.md` | `wiki/summaries/Milbrandt_Yau_2005a-summary.md` |
+| `raw/articles-pdf/Milbrandt_Morrison_2013-grpl_density.pdf` | `raw/articles-md/Milbrandt_Morrison_2013.md` | `wiki/summaries/Milbrandt_Morrison_2013-summary.md` |
+| `raw/articles-pdf/Jouan_Milbrandt_JAS_2019.pdf` | `raw/articles-md/Jouan_Milbrandt_2019.md` | `wiki/summaries/Jouan_Milbrandt_2019-summary.md` |
+| `raw/articles-pdf/Morrison_etal_2015-P3_part2.pdf` | `raw/articles-md/Morrison_etal_2015b.md` | `wiki/summaries/Morrison_etal_2015b-summary.md` |
+| `raw/articles-pdf/Milbrandt_Morrison_2016-P3_part3.pdf` | `raw/articles-md/Milbrandt_Morrison_2016.md` | `wiki/summaries/Milbrandt_Morrison_2016-summary.md` |
+| `raw/articles-pdf/Milbrandt_etal_2016_WAF.pdf` | `raw/articles-md/Milbrandt_etal_2016.md` | `wiki/summaries/Milbrandt_etal_2016-summary.md` |
 
-Multi-part papers that form a natural series may be summarized together in a single combined file, but only if the papers are best understood as a unit. Always note this at the top of a combined summary. The combined filename should reflect the series as a whole rather than any individual paper (e.g., `summaries/Milbrandt_Yau_2005ab-summary.md` for the 2-part MY series; `summaries/Morrison_Milbrandt_2015_2016-P3-summary.md` for the 3-part P3 series spanning 2015–2016). Individual per-paper summaries may also exist alongside a combined summary and should include a cross-reference note pointing to the combined file.
+Multi-part papers that form a natural series may be summarized together in a single combined file, but only if the papers are best understood as a unit. Always note this at the top of a combined summary. The combined filename should reflect the series as a whole rather than any individual paper (e.g., `wiki/summaries/Milbrandt_Yau_2005ab-summary.md` for the 2-part MY series; `wiki/summaries/Morrison_Milbrandt_2015_2016-P3-summary.md` for the 3-part P3 series spanning 2015–2016). Individual per-paper summaries may also exist alongside a combined summary and should include a cross-reference note pointing to the combined file.
 
 ---
 
 ## Output Formats
 
-### 1. Article Markdown (`markdown/Author_etal_YYYY.md`)
+### 1. Article Markdown (`raw/articles-md/Author_etal_YYYY.md`)
 
 A clean, faithful conversion of the PDF to markdown. Goal: preserve scientific content for future AI use without re-processing the PDF.
 
@@ -98,7 +101,7 @@ A clean, faithful conversion of the PDF to markdown. Goal: preserve scientific c
 - Note any figures that could not be rendered as: `[Figure X: <caption text> — image not reproducible in markdown]`
 - Include full citation at the top as a header block
 
-### 2. Article Summary (`summaries/Author_etal_YYYY-summary.md`)
+### 2. Article Summary (`wiki/summaries/Author_etal_YYYY-summary.md`)
 
 A structured interpretive summary. Use the following section template:
 
@@ -183,8 +186,8 @@ The aggregated professional summary has two main sections reflecting the authors
 
 ### Processing a new article
 1. Confirm the normalized stem (see naming convention above) and the tier (ask Jason if uncertain)
-2. Use the built-in `pdf` skill to extract the PDF → clean and save as `articles-md/<stem>.md`
-3. Using the markdown file + the summary template, produce `summaries/<stem>-summary.md` (includes Semantic Scholar citation lookup and `Author's role` field)
+2. Use the built-in `pdf` skill to extract the PDF → clean and save as `raw/articles-md/<stem>.md`
+3. Using the markdown file + the summary template, produce `wiki/summaries/<stem>-summary.md` (includes Semantic Scholar citation lookup and `Author's role` field)
 4. Update `STATUS.md` to mark the paper as complete
 
 ### Current processing plan (as of 2026-06-06)
@@ -203,7 +206,7 @@ The aggregated professional summary has two main sections reflecting the authors
 - Citation counts are approximate and should always include a retrieval date
 - Mathematical notation: prefer LaTeX inline (`$...$`) for all equations in markdown files
 - The `professional-summary.md` file is the primary deliverable for downstream AI use; treat it as a living document
-- Do not modify files in `_archive_v1/` or `articles/`
+- Do not modify anything under `raw/` or `_archive_v1/`
 
 ### Flagging unverified interpretive claims (`⚠ verify`)
 
