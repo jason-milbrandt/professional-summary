@@ -21,8 +21,8 @@ Thematic pages synthesizing across papers. Seeded from `professional-summary.md`
 - [[hail-diagnostics]] — 3D validation and maximum-hail-size diagnostics (N*_h, R*_h) *(planned)*
 - [[scheme-complexity-cost-benefit]] — one→two→three moments: where the skill gain actually is *(planned)*
 - [[observational-validation-sedimentation]] — IMPROVE-2 aircraft validation and the theory of sedimentation errors *(planned)*
-- [[ice-phase-modernization]] — benchmarking, snow-category updates, prognostic graupel density: the bridge to P3 *(planned)*
-- [[p3-scheme]] — the Predicted Particle Properties scheme, Parts I–III *(planned)*
+- [[ice-phase-modernization]] — benchmarking, snow-category updates, prognostic graupel density: the bridge to P3
+- [[p3-scheme]] — the Predicted Particle Properties scheme, Parts I–III
 - [[p3-modern-extensions]] — triple-moment ice, predicted liquid fraction, SIP, combined hail capabilities *(planned)*
 - [[operational-nwp-scale-adaptation]] — HRDPS, subgrid cloud fraction, P3 for global scales *(planned)*
 - [[process-studies]] — CCN sensitivity, melting-snow valley flow: the schemes as research instruments *(planned)*
@@ -32,7 +32,7 @@ Thematic pages synthesizing across papers. Seeded from `professional-summary.md`
 ### Tier 3 themes
 
 - [[scheme-intercomparisons]] — MY2/P3 as community reference schemes in intercomparisons and process studies *(planned)*
-- [[sip-hiwc-mixed-phase]] — secondary ice production, high ice water content, mixed-phase cloud observations *(planned)*
+- [[sip-hiwc-mixed-phase]] — secondary ice production, high ice water content, mixed-phase cloud observations
 - [[gem-mach-air-quality]] — the MY2/P3 microphysics component of ECCC's coupled air-quality model *(planned)*
 - [[olympics-wwrp-nowcasting]] — Vancouver 2010, Sochi 2014, and WWRP field-project NWP support *(planned)*
 - [[fog-visibility]] — fog, ice fog, visibility parameterization, and instrumentation collaborations *(planned)*
