@@ -2,6 +2,8 @@
 
 Last updated: 2026-06-06 (`professional-summary.md` completed — full 68-paper coverage: Tier 1/2 narrative extended through 2025 + thematic Tier 3 "Related Contributions" section added)
 
+**2026-08-05 — Converted to explicit Karpathy-style wiki.** Restructured into `raw/` (immutable sources) + `wiki/` (index.md, log.md, topics/, summaries/); built a 19-page topic layer (12 Tier 1/2 + 7 Tier 3 themes, one per `professional-summary.md` §4.x/§8.x section) synthesizing across the existing 68 summaries; retrofitted a `## Related topics` [[link]] footer into every summary. See `wiki/log.md` for the full change history and `CLAUDE.md` for the updated ingest/query/lint schema. This section (paper inventory below) is unaffected — still 68/68 complete, no new papers processed in this pass.
+
 ---
 
 ## Completed — Tier 1 & 2 (lead-authored set, 20 papers)

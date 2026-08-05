@@ -162,14 +162,52 @@ the contribution and explain why the paper is relevant to the author's work.]
   [2–4 sentences on influence: downstream implementations, comparative studies, known limitations addressed by follow-on work, etc.]
   ```
 
+### 3. Topic Page (`wiki/topics/<topic-name>.md`)
+
+A synthesizing page covering one theme across multiple source summaries — not a per-paper page. Filenames are lowercase-hyphenated (e.g. `p3-scheme.md`), not tied to any single paper's stem. Use this template:
+
+```markdown
+# Page Title
+
+**Summary:** One to two sentences describing what this page covers.
+
+**Sources:** [[stem1-summary]], [[stem2-summary]], ...
+
+**Last updated:** YYYY-MM-DD
+
+---
+
+Main content: prose organized by theme or chronology, not just a bullet
+restatement of each source. Synthesize — connect findings across papers,
+note where one paper's result motivates or gets fixed by another, follow
+$...$ LaTeX and ⚠ verify conventions as in summaries.
+
+## Related pages
+
+- [[sibling-topic-1]] — why it's related
+- [[sibling-topic-2]] — why it's related
+```
+
+A topic page should read as connective tissue between summaries, not a duplicate of `professional-summary.md`'s existing prose — pull the summaries' data forward, but articulate the cross-paper narrative in its own words.
+
+---
+
+## Wiki-Links and the Link Graph
+
+`[[wiki-links]]` (double-bracket, page basename without `.md`) are the only cross-reference mechanism in this wiki. Bare filenames in prose (the old convention) are deprecated — always use `[[link]]` syntax so the graph is machine-resolvable.
+
+- **Topic pages link down** to every summary in their `Sources:` line, and **across** to sibling topic pages in `## Related pages`.
+- **Summaries link up** via a mechanical `## Related topics` footer — one `[[topic-page]]` entry per topic page that cites this summary. When creating a new summary that a topic page will cite, add the reciprocal footer entry to the summary in the same pass (don't leave it for a later retrofit).
+- **`professional-summary.md`** points down to its matching topic page with a one-line `*Topic page: [[...]]*` immediately under each `4.x`/`8.x` section heading.
+- Check link integrity periodically: every `[[target]]` should resolve to an existing file basename somewhere in the repo (a lint check — see Lint below).
+
 ---
 
 ## Skills
 
 - **`anthropic-skills:pdf`** (built-in) — used for PDF extraction when converting articles to markdown
-- **`build-professional-summary`** *(future)* — will aggregate summary files into `professional-summary.md` once the summary format has stabilized
 
-The PDF→markdown conversion and article summarization workflows are handled inline using the instructions in this file (no custom skill needed).
+The PDF→markdown conversion, article summarization, topic-page maintenance, and lint workflows are all handled inline using the instructions in this file (no custom skill needed yet — a dedicated `wiki-lint` skill may be worth building once the lint pass is run a few times).
 
 ---
 
@@ -180,15 +218,36 @@ The aggregated professional summary has two main sections reflecting the authors
 1. **Main narrative (Tier 1 & selected Tier 2)** — Milbrandt's primary research contributions, told chronologically. Tier 2 papers where Milbrandt made a substantive intellectual contribution are included here.
 2. **Related Contributions (Tier 2 & 3)** — Papers where Milbrandt was a supporting or contributing co-author. Presented in a separate section to avoid inflating credit. A brief framing paragraph notes that these reflect Milbrandt's role as a domain expert brought in by other research groups, not as the primary intellectual driver.
 
+Each `4.x` and `8.x` subsection carries a `*Topic page: [[...]]*` pointer to its corresponding page in `wiki/topics/` — the monolith stays as the narrative spine; the topic page is where the cross-paper synthesis lives and grows.
+
 ---
 
 ## Workflow
 
-### Processing a new article
-1. Confirm the normalized stem (see naming convention above) and the tier (ask Jason if uncertain)
-2. Use the built-in `pdf` skill to extract the PDF → clean and save as `raw/articles-md/<stem>.md`
-3. Using the markdown file + the summary template, produce `wiki/summaries/<stem>-summary.md` (includes Semantic Scholar citation lookup and `Author's role` field)
-4. Update `STATUS.md` to mark the paper as complete
+### Ingesting a new article
+
+Follow this order — don't skip the discussion step. Read → discuss → write is what keeps the wiki a synthesis rather than a pile of independently-generated pages.
+
+1. Confirm the normalized stem (see naming convention above) and the tier (ask Jason if uncertain).
+2. Use the built-in `pdf` skill to extract the PDF → clean and save as `raw/articles-md/<stem>.md`.
+3. Read the article and **discuss key takeaways with Jason before writing anything** — what's the contribution, how does it relate to existing pages, does it change any earlier claim.
+4. Produce `wiki/summaries/<stem>-summary.md` using the summary template (Semantic Scholar citation lookup, `Author's role` field).
+5. Update or create the relevant `wiki/topics/*.md` page(s) this paper touches — a new paper doesn't just get a summary, it should update whichever topic pages its findings bear on. Add the reciprocal `## Related topics` link in the new summary.
+6. Update `wiki/index.md` (new summary + any new/changed topic page) and append an entry to `wiki/log.md`.
+7. Update `STATUS.md` to mark the paper as complete.
+
+A single new article may touch several existing topic pages — that's expected and is the point of the wiki pattern (see `notes-LLM_wiki/` at the `my_wiki` project root for the source material this schema follows).
+
+### Answering a question
+
+1. Read `wiki/index.md` first to find relevant topic pages and summaries.
+2. Read those pages and synthesize an answer, citing specific `[[pages]]`.
+3. If the answer isn't in the wiki, say so — don't guess from general knowledge and present it as sourced.
+4. If the answer is valuable and durable, offer to file it back as a new or updated topic page — never into `raw/`, which stays strictly external source material.
+
+### Lint
+
+When asked to lint or audit the wiki, check for: contradictions between pages; orphan pages with no inbound `[[link]]`; broken `[[links]]` that don't resolve to any file; concepts mentioned repeatedly but lacking their own topic page; summaries missing a `## Related topics` footer; and claims flagged `⚠ verify` that are old enough to resolve. There is no dedicated lint skill yet — run this as an ad hoc pass when asked, staggered rather than scheduled, since a full pass over 68+ summaries and 19+ topic pages has a real time/token cost.
 
 ### Current processing plan (as of 2026-06-06)
 1. ✅ **Phase 1 complete:** All 20 Tier 1/2 lead-authored papers summarized

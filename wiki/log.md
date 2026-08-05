@@ -23,3 +23,7 @@ Built the remaining 10 Tier 1/2 and 6 Tier 3 topic pages, completing the 19-page
 ## [2026-08-05] retrofit | Related-topics footers added to all 68 summaries
 
 Appended a `## Related topics` footer with [[wiki-links]] to every summary file, inverting the topic-to-source mapping built while writing the 19 topic pages. Verified zero unresolved [[links]] across the repo (166 files).
+
+## [2026-08-05] schema | CLAUDE.md schema formalized; STATUS.md conversion note
+
+Added the topic-page format, [[wiki-link]] conventions, and the ingest/query/lint workflow (with the read-discuss-write human checkpoint) to CLAUDE.md. Removed the stale "future build-professional-summary skill" note. Added a dated conversion summary to STATUS.md. Ran full verification: link integrity, summary/topic-page coverage, no stale bare paths, git history preserved through the raw/wiki rename. Conversion to an explicit Karpathy-style wiki is complete.
