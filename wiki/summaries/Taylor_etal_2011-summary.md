@@ -15,7 +15,7 @@ This paper describes the UNSTABLE (Understanding Severe Thunderstorms and Albert
 
 ## Context and Motivation
 
-The Alberta foothills are one of Canada's most active severe weather regions, responsible for more than 40 deaths and $2.5 billion (CAD) in storm damage since 1981. The existing synoptic-scale observational network was inadequate for resolving the mesoscale boundaries and ABL processes (moisture gradients, drylines, surface heterogeneity) known to control when and where CI occurs. No targeted field campaign had previously characterized these processes in the Alberta foothills at the required resolution.
+The Alberta foothills are one of Canada's most active severe weather regions, responsible for more than 40 deaths and \$2.5 billion (CAD) in storm damage since 1981. The existing synoptic-scale observational network was inadequate for resolving the mesoscale boundaries and ABL processes (moisture gradients, drylines, surface heterogeneity) known to control when and where CI occurs. No targeted field campaign had previously characterized these processes in the Alberta foothills at the required resolution.
 
 ## Key Scientific Contributions
 

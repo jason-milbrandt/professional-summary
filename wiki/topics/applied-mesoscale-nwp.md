@@ -10,7 +10,7 @@
 
 ## The study
 
-A 48-hour mesoscale simulation of the 19–21 July 1996 Saguenay flood cyclone — at the time the most catastrophic flood in Canadian history (10 deaths, ~CAD $800 million in damage) — using the Canadian MC2 model at 20-km resolution with Kong–Yau (1997) explicit cold microphysics. Piecewise PV inversion decomposed the cyclone's explosive deepening into contributions from an upper-level dry PV anomaly (47%), a low-level moist PV anomaly from latent heating (41%), and surface baroclinicity (12%). Factor-separation experiments isolating the Saguenay valley and an adjacent mountain range showed orography contributed roughly 20–24% of the regional 48-hour accumulated precipitation, with local contributions exceeding 30%.
+A 48-hour mesoscale simulation of the 19–21 July 1996 Saguenay flood cyclone — at the time the most catastrophic flood in Canadian history (10 deaths, ~CAD \$800 million in damage) — using the Canadian MC2 model at 20-km resolution with Kong–Yau (1997) explicit cold microphysics. Piecewise PV inversion decomposed the cyclone's explosive deepening into contributions from an upper-level dry PV anomaly (47%), a low-level moist PV anomaly from latent heating (41%), and surface baroclinicity (12%). Factor-separation experiments isolating the Saguenay valley and an adjacent mountain range showed orography contributed roughly 20–24% of the regional 48-hour accumulated precipitation, with local contributions exceeding 30%.
 
 ## Why it belongs in this wiki
 

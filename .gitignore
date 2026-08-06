@@ -3,3 +3,8 @@ __pycache__/
 *.py
 _archive_v1/
 raw/articles-pdf
+
+# Obsidian: track the vault config, ignore per-session UI state and caches
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache

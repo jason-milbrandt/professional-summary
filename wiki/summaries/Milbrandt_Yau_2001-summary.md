@@ -17,7 +17,7 @@ This paper presents a 48-h mesoscale simulation of the catastrophic 19–21 July
 
 ## Context and Motivation
 
-The 1996 Saguenay flood was the most catastrophic flood in Canadian history at the time, causing 10 deaths and approximately CAD $800 million in damage. Canadian operational models had seriously underpredicted precipitation and misplaced its location. The event provided an opportunity to apply high-resolution mesoscale modeling to decompose the physical processes responsible for the explosive cyclone development and anomalously heavy, persistent precipitation. The paper addresses fundamental questions about the relative importance of upper-level dynamics, condensational heating, and terrain in producing extreme precipitation events — questions directly relevant to mesoscale NWP model design and evaluation.
+The 1996 Saguenay flood was the most catastrophic flood in Canadian history at the time, causing 10 deaths and approximately CAD \$800 million in damage. Canadian operational models had seriously underpredicted precipitation and misplaced its location. The event provided an opportunity to apply high-resolution mesoscale modeling to decompose the physical processes responsible for the explosive cyclone development and anomalously heavy, persistent precipitation. The paper addresses fundamental questions about the relative importance of upper-level dynamics, condensational heating, and terrain in producing extreme precipitation events — questions directly relevant to mesoscale NWP model design and evaluation.
 
 ---
 

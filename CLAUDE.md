@@ -22,6 +22,7 @@ This project processes scientific journal articles (PDFs) authored or co-authore
 ```
 professional-summary/
 ├── CLAUDE.md                      ← this file
+├── .obsidian/                     ← Obsidian vault config (tracked — see below)
 ├── STATUS.md                      ← processing status and paper inventory
 ├── professional-summary.md        ← aggregated synthesis (the wiki's main page)
 ├── raw/                           ← immutable source layer — never modify
@@ -36,6 +37,24 @@ professional-summary/
 │       └── Author_etal_YYYY-summary.md
 └── _archive_v1/                   ← prior exploratory work (ignore)
 ```
+
+### Reading the wiki in a GUI (Obsidian)
+
+**The repo root is an Obsidian vault** (added 2026-08-06). Opening
+`~/Dropbox/projects/professional-summary` as a vault renders every page with clickable
+`[[wiki-links]]`, MathJax equations, backlinks, full-text search, and a graph view — no
+build step, since Obsidian reads the markdown in place. The wiki already uses Obsidian's
+native conventions exactly (basename-only links, `$...$` math, no frontmatter).
+
+- The vault root **must** stay at the repo root, not `wiki/` — `professional-summary.md`
+  lives at the root and is a link target from `wiki/index.md`.
+- `.obsidian/app.json` excludes `raw/`, `_archive_v1/`, and `.claude/` from search, Quick
+  Switcher, and the graph, so the vault shows only the wiki layer plus the synthesis.
+- `.obsidian/` config (`app.json`, `appearance.json`, `core-plugins.json`, `graph.json`) is
+  **tracked**; `workspace.json` and caches are gitignored. Don't delete `.obsidian/` as
+  cleanup — it is the GUI setup.
+- Consequence for editing: an unescaped `$` in prose (e.g. `CAD $800 million`) can pair with
+  a later math delimiter and swallow text into an equation. Write currency as `\$`.
 
 ---
 

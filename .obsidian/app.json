@@ -1,0 +1,13 @@
+{
+  "userIgnoreFilters": [
+    "raw/",
+    "_archive_v1/",
+    ".claude/"
+  ],
+  "newLinkFormat": "shortest",
+  "useMarkdownLinks": false,
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": false,
+  "showLineNumber": false,
+  "strictLineBreaks": false
+}
