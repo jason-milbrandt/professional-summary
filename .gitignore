@@ -8,3 +8,7 @@ raw/articles-pdf
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .obsidian/cache
+
+# Manuscripts in review: originals and reviewer material stay local (confidential)
+in-review/*/originals/
+in-review/*/*-reviews.md
